@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "onlineGames": {
+      "$gameId": {
+        ".read": "auth != null",
+        "meta": {
+          ".write": "auth != null",
+          ".validate": "newData.hasChildren(['createdAt', 'status', 'hostUid'])"
+        },
+        "requests": {
+          "$connectionId": {
+            "$requestId": {
+              ".write": "auth != null",
+              ".validate": "newData.hasChildren(['type'])"
+            }
+          }
+        },
+        "messages": {
+          "$messageId": {
+            ".write": "auth != null && auth.uid == root.child('onlineGames').child($gameId).child('meta').child('hostUid').val()",
+            ".validate": "newData.hasChildren(['connectionId', 'payload'])"
+          }
+        }
+      }
+    }
+  }
+}

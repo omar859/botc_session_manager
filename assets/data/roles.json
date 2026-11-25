@@ -1,0 +1,2720 @@
+[
+  {
+    "id": "mezepheles",
+    "name": "Mezepheles",
+    "edition": "carousel",
+    "team": "minion",
+    "firstNight": 31,
+    "firstNightReminder": "اعرض على الميزيبيليس كلمته السرية.",
+    "otherNight": 19,
+    "otherNightReminder": "أيقظ أول لاعب جيد قال كلمة الميزيبيليس السرية، واعرض عليه بطاقة «أنت» وإشارة الإبهام إلى الأسفل التي تدل على الشر.",
+    "reminders": [
+      "يصبح شريراً",
+      "لا قدرة"
+    ],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعرف كلمة سرية. أول لاعب جيد يقول هذه الكلمة يصبح شريراً تلك الليلة.",
+    "flavor": "«من قال انك منا و هل تعرف كلمة السر»"
+  },
+  {
+    "id": "godfather",
+    "name": "Godfather",
+    "edition": "bmr",
+    "team": "minion",
+    "firstNight": 24,
+    "firstNightReminder": "اعرض رمز كل واحد من الغرباء الموجودين في اللعبة.",
+    "otherNight": 42,
+    "otherNightReminder": "إذا مات غريب اليوم: يشير الأب الروحي إلى لاعب. يموت ذلك اللاعب.",
+    "reminders": [
+      "مات اليوم",
+      "ميت"
+    ],
+    "setup": true,
+    "ability": "تبدأ اللعبة وأنت تعرف أي الغرباء موجودون في اللعبة. إذا مات واحد اليوم، اختر لاعباً الليلة: يموت. [-1 أو +1 غريب]",
+    "flavor": "«اجلسوا بهدوء يا أولادي. العائلة تحل مشاكلها بنفسها… ومن يصرّ على أن يصبح المشكلة، نتعامل معه أيضاً.»"
+  },
+  {
+    "id": "poisoner",
+    "name": "Poisoner",
+    "edition": "tb",
+    "team": "minion",
+    "firstNight": 20,
+    "firstNightReminder": "يشير مُسمِّم السموم إلى لاعب. يصبح ذلك اللاعب مسموماً.",
+    "otherNight": 7,
+    "otherNightReminder": "أزل السم عن اللاعب الذي كان مسموماً سابقاً. يشير مُسمِّم السموم إلى لاعب، فيصبح ذلك اللاعب مسموماً.",
+    "reminders": [
+      "مسموم"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً: يكون مسموماً الليلة ويوم الغد.",
+    "flavor": "«مرة كل ليلة حتى تمو--أقصد تصح يا سيدي الحارس»"
+  },
+  {
+    "id": "devilsadvocate",
+    "name": "Devil's Advocate",
+    "edition": "bmr",
+    "team": "minion",
+    "firstNight": 25,
+    "firstNightReminder": "يشير محامي الغول إلى لاعب حي. ينجو ذلك اللاعب من الإعدام غداً.",
+    "otherNight": 13,
+    "otherNightReminder": "يشير محامي الغول إلى لاعب حي مختلف عن لاعب الليلة السابقة. ينجو ذلك اللاعب من الإعدام غداً.",
+    "reminders": [
+      "ينجو من الإعدام"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً حياً (مختلفاً عن الليلة الماضية): إذا تم إعدامه غداً، لا يموت.",
+    "flavor": "«دليل؟ لماذا اشارة مني كفيله لي ابقاء موكلي حيا»"
+  },
+  {
+    "id": "spy",
+    "name": "Spy",
+    "edition": "tb",
+    "team": "minion",
+    "firstNight": 57,
+    "firstNightReminder": "اعرض كتاب الأسرار على الجاسوس للمدة التي يحتاجها.",
+    "otherNight": 76,
+    "otherNightReminder": "اعرض كتاب الأسرار على الجاسوس للمدة التي يحتاجها.",
+    "reminders": [],
+    "setup": false,
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      }
+    ],
+    "ability": "كل ليلة، ترى السجل السري. قد يتم تسجيلك كجيد وكأحد سكان البلدة أو الغرباء، حتى لو كنت ميتاً.",
+    "flavor": "«انا صديقك لا تقلق ,على العموم كنت تقول انك تعلم من هوا الغول»"
+  },
+  {
+    "id": "harpy",
+    "name": "Harpy",
+    "team": "minion",
+    "edition": "carousel",
+    "firstNight": 30,
+    "firstNightReminder": "أيقظ الهاربي؛ يشير إلى لاعب ثم إلى لاعب آخر. أيقظ اللاعب الأول الذي أشار إليه الهاربي، واعرض عليه بطاقة «هذه الشخصية اختارتك» ثم رمز الهاربي، ثم أشر إلى اللاعب الثاني الذي اختاره الهاربي.",
+    "otherNight": 18,
+    "otherNightReminder": "أيقظ الهاربي؛ يشير إلى لاعب ثم إلى لاعب آخر. أيقظ اللاعب الأول الذي أشار إليه الهاربي، واعرض عليه بطاقة «هذه الشخصية اختارتك» ثم رمز الهاربي، ثم أشر إلى اللاعب الثاني الذي اختاره الهاربي.",
+    "reminders": [
+      "مهووس",
+      "ثاني"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعبين: غداً، اللاعب الأول مهووس بأن الثاني شرير، وإلا قد يموت أحدهما أو كلاهما.",
+    "flavor": "«انه شرير ارجوك صدقني انا لست مجنونا»"
+  },
+  {
+    "id": "witch",
+    "name": "Witch",
+    "edition": "snv",
+    "team": "minion",
+    "firstNight": 27,
+    "firstNightReminder": "تشير الساحرة إلى لاعب. إذا قام ذلك اللاعب بالترشيح غداً، يموت فوراً.",
+    "otherNight": 14,
+    "otherNightReminder": "إذا كان هناك 4 لاعبين أحياء أو أكثر: تشير الساحرة إلى لاعب. إذا قام ذلك اللاعب بالترشيح غداً، يموت فوراً.",
+    "reminders": [
+      "ملعون"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختاري لاعباً: إذا رشح غداً، يموت. إذا بقي 3 لاعبين فقط، تفقد هذه القدرة.",
+    "flavor": "«تعطي رأيك , ساحرة احرقها»"
+    },
+  {
+    "id": "cerenovus",
+    "name": "Cerenovus",
+    "edition": "snv",
+    "team": "minion",
+    "firstNight": 28,
+    "firstNightReminder": "يشير سيرينوفوس إلى لاعب، ثم إلى شخصية في ورقته. أيقظ ذلك اللاعب. اعرض عليه بطاقة «هذه الشخصية اختارتك»، ثم رمز سيرينوفوس. اعرض رمز الشخصية المختارة. إذا لم يتظاهر اللاعب بالجنون بأنه تلك الشخصية غداً، يمكن إعدامه.",
+    "otherNight": 15,
+    "otherNightReminder": "يشير سيرينوفوس إلى لاعب، ثم إلى شخصية في ورقته. أيقظ ذلك اللاعب. اعرض عليه بطاقة «هذه الشخصية اختارتك»، ثم رمز سيرينوفوس. اعرض رمز الشخصية المختارة. إذا لم يتظاهر اللاعب بالجنون بأنه تلك الشخصية غداً، يمكن إعدامه.",
+    "reminders": [
+      "مهووس"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً وشخصية جيدة: يكون 'مهووساً' بأنه هذه الشخصية غداً، أو قد يتم إعدامه.",
+    "flavor": "«يالك من شخص سخيف انت لست الرسام انت الغول بذات نفسه»"
+  },
+  {
+    "id": "fearmonger",
+    "name": "Fearmonger",
+    "edition": "carousel",
+    "team": "minion",
+    "firstNight": 29,
+    "firstNightReminder": "يشير ناشر الخوف إلى لاعب. ضع علامة الخوف بجانب ذلك اللاعب، وأعلن أن لاعباً جديداً قد اختير بقدرة ناشر الخوف.",
+    "otherNight": 17,
+    "otherNightReminder": "يشير ناشر الخوف إلى لاعب. إذا كان مختلفاً عن لاعب الليلة السابقة، ضع علامة الخوف بجانب ذلك اللاعب وأعلن أن لاعباً جديداً قد اختير بقدرة ناشر الخوف.",
+    "reminders": [
+      "خوف"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً: إذا رشحته وأعدمته، يخسر فريقهم. جميع اللاعبين يعلمون إذا اخترت لاعباً جديداً.",
+    "flavor": "«اشم رائحة جميلة رائحة الريبة و الشك و الخوف الجميل»"
+  },
+  {
+    "id": "pithag",
+    "name": "Pit-Hag",
+    "edition": "snv",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 16,
+    "otherNightReminder": "تشير ساحرة الحفر إلى لاعب وإلى شخصية في الورقة. إذا لم تكن هذه الشخصية موجودة في اللعبة، فأيقظ ذلك اللاعب واعرض عليه بطاقة «أنت» ورمز الشخصية المعنية. إذا كانت الشخصية موجودة في اللعبة، فلا يحدث شيء.",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعباً وشخصية يصبحانها (إذا لم تكن موجودة في اللعبة). إذا تم صنع غول، تكون الوفيات الليلة عشوائية.",
+    "flavor": "«الا تشعر بأنه وقت تغيير المهنة»"
+  },
+  {
+    "id": "psychopath",
+    "name": "Psychopath",
+    "edition": "carousel",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل يوم، قبل الترشيحات، يمكنك اختيار لاعب علناً: يموت. إذا تم إعدامك، تموت فقط إذا خسرت في لعبة روزامبو.",
+    "flavor": "«كأس ,رأس ,فأس في الرأس و انت تحمل الكأس»"
+  },
+  {
+    "id": "assassin",
+    "name": "Assassin",
+    "edition": "bmr",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 41,
+    "otherNightReminder": "إذا لم يكن القاتل قد استخدم قدرته بعد: إما أن يعطي القاتل إشارة رأس بالنفي، أو يشير إلى لاعب. يموت ذلك اللاعب.",
+    "reminders": [
+      "ميت",
+      "لا قدرة"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، في الليل*، اختر لاعباً: يموت، حتى لو لسبب ما لا يمكنه ذلك.",
+    "flavor": "«السم لن يقتلك اقله ليس بجرعتك كتلك , لكن طعنة في الظهر فعالة حقا»"
+  },
+  {
+    "id": "wizard",
+    "name": "Wizard",
+    "edition": "carousel",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "افعل ما يلزم لتنفيذ قدرة الساحر.",
+    "otherNight": 0,
+    "otherNightReminder": "افعل ما يلزم لتنفيذ قدرة الساحر.",
+    "reminders": [
+      "؟",
+      "؟"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، اختر أن تتمنى أمنية. إذا تحققت، قد يكون لها ثمن وتترك دليلاً على طبيعتها.",
+    "flavor": "«ربما انا سعيد بما انى عليه ربما لا احتاج أي امنية , لاا أرجوك اعطني المليون دولار»"
+  },
+  {
+    "id": "widow",
+    "name": "Widow",
+    "edition": "carousel",
+    "team": "minion",
+    "firstNight": 21,
+    "firstNightReminder": "اعرض كتاب الأسرار على الأرملة للمدة التي تحتاجها. تشير الأرملة إلى لاعب، فيصبح ذلك اللاعب مسموماً. أيقظ لاعباً جيداً. اعرض بطاقة «هذه الشخصيات موجودة في اللعبة»، ثم رمز الأرملة.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "مسموم",
+      "يعلم"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "special": [
+      {
+        "name": "grimoire",
+        "type": "signal",
+        "time": "night"
+      }
+    ],
+    "ability": "في ليلتك الأولى، انظري إلى السجل السري واختاري لاعباً: يكون مسموماً. لاعب جيد واحد يعلم أن أرملة موجودة في اللعبة.",
+    "flavor": "«حسدهم قتل عزيزي لما اخبروه عما افعل ليلا لما؟»"
+  },
+  {
+    "id": "xaan",
+    "name": "Xaan",
+    "edition": "carousel",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "إذا كانت X تساوي 1، ضع علامة *X* على الزان. :reminder: :reminder:",
+    "otherNight": 0,
+    "otherNightReminder": "غيّر علامة تذكير الزان إلى الليلة ذات الصلة. إذا كانت الليلة X، ضع علامة *X* على الزان. :reminder: :reminder:",
+    "reminders": [
+      "ليلة 1",
+      "ليلة 2",
+      "ليلة 3",
+      "X"
+    ],
+    "setup": true,
+    "ability": "في الليلة X، جميع سكان البلدة مسمومون حتى الغسق. [X غريب]",
+    "flavor": "«العلم و الجهل , الحقيقة و الكذب كله يخلط في عقلكم الصغير الضعبف»"
+  },
+  {
+    "id": "marionette",
+    "name": "Marionette",
+    "edition": "carousel",
+    "team": "minion",
+    "firstNight": 15,
+    "firstNightReminder": "اختر أحد اللاعبين الجيدين المجاورين للغول وضع بجانب رمزه علامة تذكير «هو الدمية». أيقظ الغول واعرض عليه رمز الدمية.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "هو الماريونت"
+    ],
+    "setup": true,
+    "ability": "تعتقد أنك شخصية جيدة، لكنك لست كذلك. الغول يعرف من أنت. [أنت مجاور للغول]",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ],
+    "flavor": "«ارفع يديك عندما أطلب. ابتسم عندما أطلب. ولا تسأل أبداً من الذي يمسك بالخيوط.»"
+  },
+  {
+    "id": "wraith",
+    "name": "Wraith",
+    "team": "minion",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "أيقظ الشبح كلما استيقظ اللاعبون الأشرار الآخرون.",
+    "otherNight": 0,
+    "otherNightReminder": "أيقظ الشبح كلما استيقظ اللاعبون الأشرار الآخرون.",
+    "reminders": [],
+    "setup": false,
+    "ability": "يمكنك اختيار فتح عينيك في الليل. تستيقظ عندما يستيقظ اللاعبون الأشرار الآخرون.",
+    "flavor": "«لا أريد أن أنام الليلة , أفضل السهر مع اصدقائى»",
+    "special": [
+      {
+        "type": "player",
+        "name": "open-eyes",
+        "time": "night"
+      }
+    ]
+  },
+  {
+    "id": "summoner",
+    "name": "Summoner",
+    "team": "minion",
+    "edition": "carousel",
+    "firstNight": 11,
+    "firstNightReminder": "اعرض بطاقة «هذه الشخصيات غير موجودة في اللعبة». اعرض 3 رموز لشخصيات جيدة غير موجودة في اللعبة.",
+    "otherNight": 21,
+    "otherNightReminder": "إذا كانت هذه هي الليلة الثالثة، فأيقظ المستدعي. يشير إلى لاعب وإلى غول في ورقة الشخصيات؛ يصبح ذلك اللاعب ذلك الغول.",
+    "reminders": [
+      "ليلة 1",
+      "ليلة 2",
+      "ليلة 3"
+    ],
+    "setup": true,
+    "ability": "تحصل على 3 تضليلات. في الليلة الثالثة، اختر لاعباً: يصبح غولاً شريراً من اختيارك. [لا غول]",
+    "flavor": "«من يحتاج التظحية لي استدعاء وحش»"
+  },
+  {
+    "id": "eviltwin",
+    "name": "Evil Twin",
+    "edition": "snv",
+    "team": "minion",
+    "firstNight": 26,
+    "firstNightReminder": "أيقظ التوأم الشرير وتوأمه. تأكد من أنهما تعرّفا إلى بعضهما. أشر إلى التوأم الشرير واعرض للاعب التوأم رمز «التوأم الشرير». ثم أشر إلى التوأم واعرض للاعب التوأم الشرير رمز شخصيته.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "توأم"
+    ],
+    "setup": false,
+    "ability": "أنت ولاعب من الجانب الآخر تعرفان بعضكما البعض. إذا تم إعدام اللاعب الجيد، يفوز الشر. لا يمكن للخير الفوز إذا كنتما على قيد الحياة.",
+    "flavor": "«ليست أنا. أنا سارة. كلارا هي الشريرة.»"
+  },
+  {
+    "id": "goblin",
+    "name": "Goblin",
+    "edition": "carousel",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "ادعى"
+    ],
+    "setup": false,
+    "ability": "إذا ادعيت علناً أنك العفريت عندما يتم ترشيحك وتم إعدامك ذلك اليوم، يفوز فريقك.",
+    "flavor": "«لذيذ حق لذيذ حقا حقا لكن اتعلم لو كانو فقط بأكلون الخضار من وقت الى أخر لكان طعمهم مثاليا.»"
+  },
+  {
+    "id": "boomdandy",
+    "name": "Boomdandy",
+    "edition": "carousel",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "إذا تم إعدامك، يموت جميع اللاعبين ما عدا 3. بعد العد التنازلي من 10 إلى 1، يموت اللاعب الذي يشير إليه أكبر عدد من اللاعبين.",
+    "special": [
+      {
+        "type": "ability",
+        "name": "pointing",
+        "time": "day"
+      }
+    ],
+    "flavor": "« إذا كنتم ستعدمونني، فدعوني على الأقل أختار أين سيكون الاحتفال»"
+  },
+  {
+    "id": "mastermind",
+    "name": "Mastermind",
+    "edition": "bmr",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "إذا مات الغول بالإعدام (منتهياً اللعبة)، العب ليوم إضافي. إذا تم إعدام لاعب بعد ذلك، يخسر فريقهم.",
+    "flavor": "«تخطط لليلة , انا اسبقك بيوم دائما»"
+  },
+  {
+    "id": "scarletwoman",
+    "name": "Scarlet Woman",
+    "edition": "tb",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 20,
+    "otherNightReminder": "إذا أصبحت المرأة القرمزية هي الغول اليوم: اعرض عليها بطاقة «أنت»، ثم رمز الغول.",
+    "reminders": [
+      "هو الغول"
+    ],
+    "setup": false,
+    "ability": "إذا كان هناك 5 لاعبين أو أكثر على قيد الحياة ومات الغول، تصبح أنت الغول. (المسافرون لا يحتسبون.)",
+    "flavor": "«لن نسقط طالما انا على قيد الحياة»"
+  },
+  {
+    "id": "vizier",
+    "name": "Vizier",
+    "team": "minion",
+    "edition": "carousel",
+    "firstNight": 65,
+    "firstNightReminder": "أعلن «الوزير موجود في اللعبة» وحدد أي لاعب هو.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "جميع اللاعبين يعرفون أنك الوزير. لا يمكنك الموت أثناء النهار. إذا صوت الخير، يمكنك اختيار الإعدام فوراً.",
+    "flavor": "«لا حاجة للتصويت كثيراً. أنا أرى أن القرار واضح…انت طيب لذلك وجب عليك الموت.»"
+  },
+  {
+    "id": "organgrinder",
+    "name": "Organ Grinder",
+    "edition": "carousel",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "على وشك الموت",
+      "ثمل"
+    ],
+    "setup": false,
+    "ability": "جميع اللاعبين يبقون أعينهم مغلقة عند التصويت ويكون مجموع الأصوات سرياً. كل ليلة، اختر إذا كنت ثملاً حتى الغسق.",
+    "special": [
+      {
+        "type": "vote",
+        "name": "hidden"
+      }
+    ],
+    "flavor": "«أغمض عينيك و اسقط لا تقلق سوف احملك فأنا لن أخونك»"
+  },
+  {
+    "id": "boffin",
+    "name": "Boffin",
+    "team": "minion",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "أيقظ بوفين والغول. اعرض رمز «هذه الشخصية اختارتك» ورمز بوفين، ثم رمز الشخصية الجيدة غير الموجودة في اللعبة.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "الغول (حتى لو كان ثملاً أو مسموماً) لديه قدرة شخصية جيدة غير موجودة في اللعبة. كلاكما يعرف أيها.",
+    "flavor": "«لست قويا مثل البقية و لكن ما افعلة بلا مضاعفات جانبية»"
+  },
+  {
+    "id": "baron",
+    "name": "Baron",
+    "edition": "tb",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "هناك غرباء إضافيون في اللعبة. [+2 غرباء]",
+    "flavor": "«لا تحتاج البلدة إلى أبطال كثيرين. أعطوني بعض الغرباء، وسأعطيكم فوضى محترمة.»"
+  },
+  {
+    "id": "hermit",
+    "name": "Hermit",
+    "team": "outsider",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "1",
+      "2",
+      "3"
+    ],
+    "setup": true,
+    "ability": "لديك جميع قدرات الغرباء. [-0 أو -1 غريب]",
+    "flavor": "«أنا أحب الوحدة. فهي تجعل من السهل معرفة أي الأصوات ليست أصواتي.»"
+  },
+  {
+    "id": "butler",
+    "name": "Butler",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNight": 43,
+    "firstNightReminder": "يشير الخادم إلى لاعب. ضع عليه علامة «السيد».",
+    "otherNight": 75,
+    "otherNightReminder": "يشير الخادم إلى لاعب. ضع عليه علامة «السيد».",
+    "reminders": [
+      "سيد"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً (ليس نفسك): غداً، لا يمكنك التصويت إلا إذا كانوا هم يصوتون أيضاً.",
+    "flavor": "«ليتني اجدك ياسيدي اين انت»"
+  },
+  {
+    "id": "goon",
+    "name": "Goon",
+    "edition": "bmr",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "ثمل"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، أول لاعب يختارك بقدرته يكون ثملاً حتى الغسق. تصبح من انحيازه.",
+    "flavor": "«غرو!, هل هاذا انت؟؟»"
+  },
+  {
+    "id": "ogre",
+    "name": "Ogre",
+    "team": "outsider",
+    "edition": "carousel",
+    "firstNight": 58,
+    "firstNightReminder": "يشير الغول إلى لاعب (ليس نفسه)، ثم يصبح من انحياز ذلك اللاعب.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "صديق"
+    ],
+    "setup": false,
+    "ability": "في ليلتك الأولى، اختر لاعباً (ليس نفسك): تصبح من انحيازه (لا تعرف أيهما) حتى لو كنت ثملاً أو مسموماً.",
+    "flavor": "«عدو صديقي عدوي و صديق عدوي عدوي و صديق صديقي عدوي العلة فقط ان اعرف ايهم»"
+  },
+  {
+    "id": "lunatic",
+    "name": "Lunatic",
+    "edition": "bmr",
+    "team": "outsider",
+    "firstNight": 10,
+    "firstNightReminder": "إذا كان هناك 7 لاعبين أو أكثر: اعرض على المجنون عدداً من رموز «الأتباع» العشوائية يساوي عدد الأتباع الموجودين في اللعبة. اعرض 3 رموز لشخصيات جيدة عشوائية. إذا كان الرمز الذي حصل عليه المجنون هو غولاً من المفترض أن يستيقظ الليلة، اسمح للمجنون بتنفيذ أفعال الغول. ضع علامات «الهجوم» الخاصة به. أيقظ الغول، واعرض له رمز شخصيته الحقيقي، ثم أشر إلى لاعب المجنون. إذا هاجم المجنون لاعبين، اعرض للغول الحقيقي كل لاعب تمت مهاجمته. أزل أي علامات «هجوم» خاصة بالمجنون.",
+    "otherNight": 22,
+    "otherNightReminder": "اسمح للمجنون بتنفيذ أفعال الغول. ضع علامات «الهجوم» الخاصة به. إذا اختار المجنون لاعبين، فأيقظ الغول واعرض علامة «الهجوم»، ثم أشر إلى كل لاعب محدد. أزل أي علامات «هجوم» خاصة بالمجنون.",
+    "reminders": [
+      "مختار",
+      "مختار",
+      "مختار"
+    ],
+    "setup": false,
+    "ability": "تعتقد أنك غول، لكنك لست كذلك. الغول يعرف من أنت ومن تختار في الليل.",
+    "flavor": "«كل ليلة أستيقظ وأنا متأكد أنني الغول. الغريب أن الغول يبدو مقتنعاً بذلك أيضاً.»"
+  },
+  {
+    "id": "drunk",
+    "name": "Drunk",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "هو السكير"
+    ],
+    "setup": true,
+    "ability": "لا تعلم أنك السكير. تعتقد أنك شخصية من سكان البلدة، لكنك لست كذلك.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ],
+    "flavor": "«أنا بخير تماماً. أعطني الكأس… لا، أعطني الكأس الآخر. هذا الكأس ينظر إليّ بغرابة.»"
+  },
+  {
+    "id": "tinker",
+    "name": "Tinker",
+    "edition": "bmr",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 56,
+    "otherNightReminder": "قد يموت الحرفي.",
+    "reminders": [
+      "ميت"
+    ],
+    "setup": false,
+    "ability": " بلا أي سبب قد تموت في أي وقت.",
+    "flavor": "«دعني أصلحها! لا تقلق، أنا بارع جداً… في المحاولة على الأقل.»"
+  },
+  {
+    "id": "recluse",
+    "name": "Recluse",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "قد يتم تسجيلك كشرير وكتابع أو غول، حتى لو كنت ميتاً.",
+    "flavor": "«لا أحب أن أكون في المنتصف. لسوء الحظ، يبدو أن العالم مصمم ليضعني هناك.»"
+  },
+  {
+    "id": "golem",
+    "name": "Golem",
+    "edition": "carousel",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "لا يمكنه الترشيح"
+    ],
+    "setup": false,
+    "ability": "لا يمكنك الترشيح إلا مرة واحدة في اللعبة. عندما تفعل، إذا لم يكن المرشح هو الغول، يموت.",
+    "flavor": "«أنا لا أتكلم كثيراً. لكن إذا رشحتُ شخصاً، فالأفضل أن يستحق ذلك.»"
+  },
+  {
+    "id": "sweetheart",
+    "name": "Sweetheart",
+    "edition": "snv",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 47,
+    "otherNightReminder": "اختر لاعباً ثملاً.",
+    "reminders": [
+      "ثمل"
+    ],
+    "setup": false,
+    "ability": "عندما تموتين، يصبح لاعب واحد ثملاً من الآن فصاعداً.",
+    "flavor": "«غول .. أتباع .. موت ما هذه الأشياء يا جدتي»"
+  },
+  {
+    "id": "plaguedoctor",
+    "name": "Plague Doctor",
+    "team": "outsider",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "قدرة راوي القصة"
+    ],
+    "setup": false,
+    "ability": "عندما تموت، يكتسب راوي القصة قدرة تابع.",
+    "flavor": "«لم أستطع غلب أي طاعون ولكن هذه المرة و معك انت سوف ننجح و لو كان الثمن نفسي»"
+  },
+  {
+    "id": "klutz",
+    "name": "Klutz",
+    "edition": "snv",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "عندما تتعلم أنك مت، اختر علناً لاعباً حياً واحداً: إذا كان شريراً، يخسر فريقك.",
+    "flavor": "«آسف! لم أقصد كسرها. لم أقصد إسقاطها أيضاً. في الحقيقة، لم أقصد معظم الأشياء التي حدثت اليوم.»"
+  },
+  {
+    "id": "moonchild",
+    "name": "Moonchild",
+    "edition": "bmr",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 57,
+    "otherNightReminder": "إذا استخدم طفل القمر قدرته اليوم لاختيار لاعب: إذا كان ذلك اللاعب جيداً، يموت.",
+    "reminders": [
+      "ميت"
+    ],
+    "setup": false,
+    "ability": "عندما تتعلم أنك مت، اختر علناً لاعباً حياً واحداً. الليلة، إذا كان لاعباً جيداً، يموت.",
+    "flavor": "«اكره الليل و اكره القمر و اكرهك انت»"
+  },
+  {
+    "id": "saint",
+    "name": "Saint",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "إذا مت بالإعدام، يخسر فريقك.",
+    "flavor": "«قد لا أكون أقوى شخص في القرية، لكنني لن أبيع أرواحكم كي أنجو بنفسي.»"
+  },
+  {
+    "id": "barber",
+    "name": "Barber",
+    "edition": "snv",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 46,
+    "otherNightReminder": "إذا مات الحلاق اليوم: أيقظ الغول. اعرض عليه بطاقة «هذه الشخصية اختارتك»، ثم رمز الحلاق. إما أن يعطي الغول إشارة رأس بالنفي، أو يشير إلى لاعبين. إذا اختار لاعبين، فبدّل رمزي شخصيتيهما. أيقظ كلا اللاعبين، واعرض بطاقة «أنت»، ثم رمز الشخصية الجديدة لكل منهما.",
+    "reminders": [
+      "قصات شعر الليلة"
+    ],
+    "setup": false,
+    "ability": "إذا مت اليوم أو الليلة، يجوز للغول اختيار لاعبين (ليس غولاً آخر) لتبادل الشخصيات.",
+    "flavor": "«اجلس بهدوء. قصة شعر جديدة قد تغيّر مظهرك… وأحياناً تغيّر أكثر من ذلك بكثير.»"
+  },
+  {
+    "id": "hatter",
+    "name": "Hatter",
+    "team": "outsider",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 45,
+    "otherNightReminder": "إذا مات حافي القبعة اليوم: أيقظ الأتباع والغول. اعرض عليهم علامة «هذه الشخصية اختارتك»، ثم رمز حافي القبعة. يختار كل لاعب إما هزّ رأسه بالنفي أو الإشارة إلى شخصية أخرى من النوع نفسه لشخصيته الحالية. إذا كان لاعب ثانٍ سينتهي بالشخصية نفسها التي اختارها لاعب آخر، اهز رأسك بالنفي وأشر إليه ليختار مرة أخرى. أعدهم إلى النوم. غيّر شخصية كل لاعب إلى الشخصية التي اختارها.",
+    "reminders": [
+      "حفل شاي الليلة"
+    ],
+    "setup": false,
+    "ability": "إذا مت اليوم أو الليلة، يجوز للاعبين التابع والغول اختيار شخصيات تابع وغول جديدة ليكونوا عليها.",
+    "flavor": "«قبعة جديدة؟ ممتاز! لكن لا تلمسها قبل أن تنتهي.»"
+  },
+  {
+    "id": "mutant",
+    "name": "Mutant",
+    "edition": "snv",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "إذا كنت 'مهووساً' بأنك غريب، قد يتم إعدامك.",
+    "flavor": "«لا أريد أن أكذب. أحياناً أفضل أن أبقى صامتاً… فهذا أقل خطراً بكثير.»"
+  },
+  {
+    "id": "politician",
+    "name": "Politician",
+    "edition": "carousel",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "إذا كنت اللاعب الأكثر مسؤولية عن خسارة فريقك، فإنك تغير انحيازك وتفوز، حتى لو كنت ميتاً.",
+    "flavor": "«أنا لا أعدكم بشيء. لكنني أعدكم أنني سأكون في المكان الذي أحتاج أن أكون فيه عندما تنتهي اللعبة.»"
+  },
+  {
+    "id": "zealot",
+    "name": "Zealot",
+    "team": "outsider",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "إذا كان هناك 5 لاعبين أو أكثر على قيد الحياة، يجب عليك التصويت لكل ترشيح.",
+    "flavor": "«لا أحتاج إلى دليل. أنا أعرف ما أؤمن به، وسأصوّت له حتى لو اضطررت للصراخ.»"
+  },
+  {
+    "id": "damsel",
+    "name": "Damsel",
+    "edition": "carousel",
+    "team": "outsider",
+    "firstNight": 35,
+    "firstNightReminder": "أيقظ جميع الأتباع، واعرض عليهم بطاقة «هذه الشخصية اختارتك» ورمز الآنسة.",
+    "otherNight": 53,
+    "otherNightReminder": "إذا اختارها الصياد، فأيقظ الآنسة واعرض عليها بطاقة «أنت» ورمز أحد سكان البلدة غير الموجودين في اللعبة.",
+    "reminders": [
+      "تم استخدام التخمين"
+    ],
+    "setup": false,
+    "ability": "جميع الأتباع يعلمون أن آنسة موجودة في اللعبة. إذا خمّن أحد الأتباع هويتك علناً (مرة واحدة)، يخسر فريقك.",
+    "flavor": "«أنا مجرد فتاة عادية. لا وجود لي تلك الأميرة الضائعة دعوني وشأني»"
+  },
+  {
+    "id": "snitch",
+    "name": "Snitch",
+    "edition": "carousel",
+    "team": "outsider",
+    "firstNight": 9,
+    "firstNightReminder": "بعد معلومات الأتباع، أيقظ كل تابع واعرض له ثلاثة رموز لشخصيات غير موجودة في اللعبة. يمكن أن تكون الرموز متطابقة أو مختلفة عن بعضها وعن الرموز التي عُرضت على الغول.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل تابع يحصل على 3 تضليلات.",
+    "flavor": "«لقد أخبرني بأنه سوف يقتلك و أيضا رأيت الآنسة تأكل من الكعكة اللتي أعدها الطباخ»"
+  },
+  {
+    "id": "heretic",
+    "name": "Heretic",
+    "edition": "carousel",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "من يفوز، يخسر ومن يخسر، يفوز، حتى لو كنت ميتاً.",
+    "flavor": "«من اللذي أخبركم انه يجب ان نقتل الغول كي نفوز الم يخطر في بالكم ان الفوز يكمن في موتنا»"
+  },
+  {
+    "id": "puzzlemaster",
+    "name": "Puzzlemaster",
+    "edition": "carousel",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "ثمل",
+      "تم استخدام التخمين"
+    ],
+    "setup": false,
+    "ability": "لاعب واحد ثمل، حتى لو مت. إذا خمنت (مرة واحدة) من هو، تتعلم من هو الغول، لكن إذا خمنت خطأ تحصل على معلومات خاطئة.",
+    "flavor": "«بطبع الأمر سهل انظر في وجهة و قل هل أنت الغول ... بطبع تفشل في كل مرة»"
+  },
+  {
+    "id": "acrobat",
+    "name": "Acrobat",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 44,
+    "otherNightReminder": "إذا كان أحد الجيران الجيدين الأحياء ثملاً أو مسموماً، يموت لاعب الأكروبات.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، إذا كان أيٌّ من جاريك الجيدين الحيين ثملاً أو مسموماً، تموت.",
+    "flavor": "«أنا بخير ما دامت أقدامكم ثابتة. إذا بدأ أحدكم بالتعثر… لا تنظروا إليّ.»"
+  },
+  {
+    "id": "steward",
+    "name": "Steward",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "firstNight": 48,
+    "firstNightReminder": "أشر إلى لاعب جيد.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "يعلم"
+    ],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعرف لاعباً جيداً واحداً.",
+    "flavor": "«35 نزيلا ، 3 منهم مغادرين غدا و 2 منهم غيلان و 29 اختفو في ضروف غامضه بلا أي دليل»"
+  },
+  {
+    "id": "knight",
+    "name": "Knight",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "firstNight": 49,
+    "firstNightReminder": "أشر إلى لاعبين ليس أيٌّ منهما الغول.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "يعلم",
+      "يعلم"
+    ],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعرف لاعبين ليسا الغول.",
+    "flavor": "«كنت واقفا امام البوابة طول الوقت ، اني متأكد على الأقل الغول ليس احدهما.»"
+  },
+  {
+    "id": "chef",
+    "name": "Chef",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 40,
+    "firstNightReminder": "اعرض إشارة الأصابع (0، 1، 2، …) لعدد أزواج اللاعبين الأشرار المتجاورين.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعرف كم زوجاً من الأشرار موجود.",
+    "flavor": "«الطلب رقم 8 جاهز ، الطلب رقم 9 جاهز ، الطلب رقم 666 جاهز.»"
+  },
+  {
+    "id": "noble",
+    "name": "Noble",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 50,
+    "firstNightReminder": "أشر إلى 3 لاعبين، من بينهم لاعب شرير واحد، بأي ترتيب.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "يعلم",
+      "يعلم",
+      "يعلم"
+    ],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعرف 3 لاعبين، واحد منهم فقط شرير.",
+    "flavor": "«مكانتي و قدراتي تجعل مني هدف سهل للمتملقين، فكيف لي ان اعرف من منهم يرغب في اكلي.»"
+  },
+  {
+    "id": "investigator",
+    "name": "Investigator",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 39,
+    "firstNightReminder": "اعرض رمز تابع موجود في اللعبة. أشر إلى لاعبين، أحدهما هو ذلك التابع.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "تابع",
+      "خطأ"
+    ],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعلم أن أحد لاعبين اثنين هو تابع معين.",
+    "flavor": "«ليس ذنبي كوني عبقري ، لست السبب كانت مجرد صدفه صدقوني.»"
+  },
+  {
+    "id": "washerwoman",
+    "name": "Washerwoman",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 37,
+    "firstNightReminder": "اعرض رمز أحد سكان البلدة الموجودين في اللعبة. أشر إلى لاعبين، أحدهما هو تلك الشخصية.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "ساكن البلدة",
+      "خطأ"
+    ],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعلم أن أحد لاعبين اثنين هو ساكن بلدة معين.",
+    "flavor": "«الملابس تخبر الكثير عن من يرتديها.»"
+  },
+  {
+    "id": "clockmaker",
+    "name": "Clockmaker",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 45,
+    "firstNightReminder": "اعرض إشارة الأصابع للعدد (1، 2، 3، إلخ) الذي يمثل المسافة من الغول إلى أقرب تابع.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعرف كم خطوة تفصل الغول عن أقرب تابع له.",
+    "flavor": "«اخدت 2.3 ثانيا اضافية كي تصل إلي ، ارجوك احترم الساعة»"
+  },
+  {
+    "id": "grandmother",
+    "name": "Grandmother",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 44,
+    "firstNightReminder": "اعرض رمز الشخصية المحددة، ثم أشر إلى اللاعب المحدد.",
+    "otherNight": 58,
+    "otherNightReminder": "إذا قتل الغول حفيد الجدة الليلة، تموت الجدة.",
+    "reminders": [
+      "حفيد",
+      "ميت"
+    ],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعرف لاعباً جيداً وشخصيته. إذا قتلهم الغول، تموت أنت أيضاً.",
+    "flavor": "«ايها الصغير اللطيف إذا لمسك اي مكروه انا لن اتحمل.»"
+  },
+  {
+    "id": "librarian",
+    "name": "Librarian",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 38,
+    "firstNightReminder": "اعرض رمز أحد الغرباء الموجودين في اللعبة. أشر إلى لاعبين، أحدهما هو تلك الشخصية.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "غريب",
+      "خطأ"
+    ],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعلم أن أحد لاعبين اثنين هو غريب معين. (أو أنه لا يوجد أي غريب في اللعبة.)",
+    "flavor": "«اول مرة في المكتبة ، ارجوك اعد الكتاب في مكانه.»"
+  },
+  {
+    "id": "shugenja",
+    "name": "Shugenja",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "firstNight": 52,
+    "firstNightReminder": "أيقظ الشوجينجا؛ أشر أفقياً في اتجاه أقرب لاعب شرير. إذا كان أقرب لاعبين شريرين على المسافة نفسها، فأشر أفقياً في أي من الاتجاهين.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعرف إذا كان أقرب لاعب شرير إليك في اتجاه عقارب الساعة أو عكسها. إذا كانت المسافات متساوية، تكون هذه المعلومات عشوائية.",
+    "flavor": "«يسار او يمين لا يوجد فرق كل الطرق تؤدي الى الغول»"
+  },
+  {
+    "id": "pixie",
+    "name": "Pixie",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 33,
+    "firstNightReminder": "اعرض على الجني رمز أحد سكان البلدة الموجودين في اللعبة.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "مهووس",
+      "لديه قدرة"
+    ],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعرف شخصية واحدة من سكان البلدة موجودة في اللعبة. إذا تظاهرت بأنك هذه الشخصية، تكتسب قدرتها عندما تموت.",
+    "flavor": "«لطالما اردت ان أكون انت ، لكن لحظه ربما انا بالفعل انت و انت بالفعل انا.»"
+  },
+  {
+    "id": "bountyhunter",
+    "name": "Bounty Hunter",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 54,
+    "firstNightReminder": "أشر إلى لاعب شرير واحد. أيقظ ساكن البلدة الشرير واعرض عليه بطاقة «أنت» وإشارة الإبهام إلى الأسفل التي تدل على الشر.",
+    "otherNight": 72,
+    "otherNightReminder": "إذا مات اللاعب الشرير المعروف، أشر إلى لاعب شرير آخر.",
+    "reminders": [
+      "يعلم"
+    ],
+    "setup": true,
+    "ability": "تبدأ اللعبة وأنت تعرف لاعباً شريراً واحداً. إذا مات اللاعب الذي تعرفه، تتعلم لاعباً شريراً آخر الليلة. [ساكن بلدة واحد شرير]",
+    "flavor": "«ساجمع رؤوسكم و اعلقهم بفخر واحد يتلو الآخر.»"
+  },
+  {
+    "id": "empath",
+    "name": "Empath",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 41,
+    "firstNightReminder": "اعرض إشارة الأصابع (0، 1، 2) لعدد جيران المتعاطف الأحياء الأشرار.",
+    "otherNight": 60,
+    "otherNightReminder": "اعرض إشارة الأصابع (0، 1، 2) لعدد الجيران الأشرار.",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل ليلة، تتعلم كم من جاريك الحيين هما شريران.",
+    "flavor": "«انا اشعر بهالة شريرة قريبة ، او انا فقط جائع.»"
+  },
+  {
+    "id": "highpriestess",
+    "name": "High Priestess",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "firstNight": 59,
+    "firstNightReminder": "أشر إلى لاعب.",
+    "otherNight": 77,
+    "otherNightReminder": "أشر إلى لاعب.",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل ليلة، تعلم أي لاعب يعتقد راوي القصة أنه يجب أن تتحدث معه أكثر.",
+    "flavor": "«هناك صوت في داخلي يخبرني انك المفتاح لي حل مشاكلنا كلها.»"
+  },
+  {
+    "id": "sailor",
+    "name": "Sailor",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 14,
+    "firstNightReminder": "يشير البحّار إلى لاعب حي. يصبح البحّار أو اللاعب المختار ثملاً.",
+    "otherNight": 4,
+    "otherNightReminder": "أزل الثمالة عن اللاعب الذي كان ثملاً سابقاً. يشير البحّار إلى لاعب حي. يصبح البحّار أو اللاعب المختار ثملاً.",
+    "reminders": [
+      "ثمل"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً حياً: إما أنت أو هم ثملون حتى الغسق. لا يمكنك الموت.",
+    "flavor": "«اشرب يا صديقي اشرب فلا وضعنا بوضع و لا حياتنا بي حياة.»"
+  },
+  {
+    "id": "balloonist",
+    "name": "Balloonist",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 51,
+    "firstNightReminder": "اختر نوع شخصية. أشر إلى لاعب شخصيته من ذلك النوع. ضع علامة تذكير «شوهد» الخاصة براكب المنطاد بجانب رمز تلك الشخصية.",
+    "otherNight": 69,
+    "otherNightReminder": "اختر نوع شخصية لا توجد بجانبه بعد علامة «شوهد». أشر إلى لاعب شخصيته من ذلك النوع، إن وُجد، وضع علامة «شوهد» الخاصة براكب المنطاد بجانب رمز تلك الشخصية.",
+    "reminders": [
+      "يعلم"
+    ],
+    "setup": true,
+    "ability": "كل ليلة، تتعلم لاعباً من نوع شخصية مختلف عن الليلة الماضية. [+0 أو +1 غريب]",
+    "flavor": "«من هذا الارتفاع كلكم مجرد بقع ملونه ،احمر ، برتقالي ،ازرق ، سماوي»"
+  },
+  {
+    "id": "general",
+    "name": "General",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 60,
+    "firstNightReminder": "أشر بإبهام للأعلى إذا كان الفريق الجيد سيفوز، وللأسفل إذا كان الفريق الشرير سيفوز، وإلى الجانب إذا لم يكن أي منهما.",
+    "otherNight": 78,
+    "otherNightReminder": "أشر بإبهام للأعلى إذا كان الفريق الجيد سيفوز، وللأسفل إذا كان الفريق الشرير سيفوز، وإلى الجانب إذا لم يكن أي منهما.",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل ليلة، تتعلم أي انحياز يعتقد راوي القصة أنه الفائز: خير، شر، أو لا أحد.",
+    "flavor": "«من خبرتي التكتيكية و من هاذا المنبر اخبركم حانت ساعة الصفر»"
+  },
+  {
+    "id": "preacher",
+    "name": "Preacher",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 17,
+    "firstNightReminder": "يختار الواعظ لاعباً. إذا كان المختار تابعاً، فأيقظ التابع واعرض عليه بطاقة «هذه الشخصية اختارتك»، ثم رمز الواعظ.",
+    "otherNight": 6,
+    "otherNightReminder": "يختار الواعظ لاعباً. إذا كان المختار تابعاً، فأيقظ التابع واعرض عليه بطاقة «هذه الشخصية اختارتك»، ثم رمز الواعظ.",
+    "reminders": [
+      "لا قدرة",
+      "لا قدرة",
+      "لا قدرة"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً: التابع، إذا تم اختياره، يتعلم ذلك. كل الأتباع المختارين ليس لديهم قدرة.",
+    "flavor": "«و ها انا انقيك من كل الخبث و الشر.»"
+  },
+  {
+    "id": "chambermaid",
+    "name": "Chambermaid",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 61,
+    "firstNightReminder": "تشير الخادمة إلى لاعبين. اعرض إشارة الرقم (0، 1، 2، …) لعدد أولئك اللاعبين الذين يستيقظون الليلة بسبب قدراتهم.",
+    "otherNight": 79,
+    "otherNightReminder": "تشير الخادمة إلى لاعبين. اعرض إشارة الرقم (0، 1، 2، …) لعدد أولئك اللاعبين الذين يستيقظون الليلة بسبب قدراتهم.",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعبين حيين (ليس نفسك): تتعلم كم استيقظوا الليلة بسبب قدراتهم.",
+    "flavor": "«اكنس امام المنازل و الكل نيام ، إلا انت لماذا؟.»"
+  },
+  {
+    "id": "villageidiot",
+    "name": "Village Idiot",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "firstNight": 53,
+    "firstNightReminder": "يشير أحمق القرية إلى لاعب؛ أعطِ إشارة إبهام للأعلى إذا كان جيداً أو للأسفل إذا كان شريراً.",
+    "otherNight": 70,
+    "otherNightReminder": "يشير أحمق القرية إلى لاعب؛ أعطِ إشارة إبهام للأعلى إذا كان جيداً أو للأسفل إذا كان شريراً.",
+    "reminders": [
+      "ثمل"
+    ],
+    "setup": true,
+    "ability": "كل ليلة، اختر لاعباً: تتعلم انحيازه. [+0 إلى +2 حمقى قرية. واحد من الإضافيين ثمل]",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "flavor": "«اكثر الناس حكمة هم الحمقى.»"
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "أنت آمن من الغول.",
+    "flavor": "«الكل يقتل بينما اسبح انا في دمائهم ، بالطبع تظن بأني الغول.»"
+  },
+  {
+    "id": "alchemist",
+    "name": "Alchemist",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 4,
+    "firstNightReminder": "اعرض على الكيميائي رمز تابع غير موجود في اللعبة.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "هو الكيميائي"
+    ],
+    "setup": false,
+    "ability": "لديك قدرة تابعة. عند استخدامها، قد يطلب منك راوي القصة الاختيار بشكل مختلف.",
+    "special": [
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ],
+    "flavor": "«اخلط هذا مع هذا لي ينتج مركب يمنحك قوة وحش.»"
+  },
+  {
+    "id": "cannibal",
+    "name": "Cannibal",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "مسموم",
+      "وجبة"
+    ],
+    "setup": false,
+    "ability": "لديك قدرة آخر من تم إعدامه وقتله. إذا كان شريراً، فأنت مسموم حتى يموت لاعب جيد بالإعدام.",
+    "flavor": "«انا فعلا لا ارغب في اكلك لكنك تبدو لذيذا.»"
+  },
+  {
+    "id": "amnesiac",
+    "name": "Amnesiac",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 36,
+    "firstNightReminder": "حدّد قدرة فاقد الذاكرة بالكامل. إذا كانت قدرته تتطلب أن يستيقظ الليلة، فأيقظ فاقد الذاكرة ونفّذ قدرته.",
+    "otherNight": 54,
+    "otherNightReminder": "إذا كانت قدرة فاقد الذاكرة تتطلب أن يستيقظ الليلة، فأيقظه ونفّذ قدرته.",
+    "reminders": [
+      "؟",
+      "؟",
+      "؟"
+    ],
+    "setup": false,
+    "ability": "لا تعرف ما هي قدرتك. كل يوم، خمّن سراً ما هي: تتعلم مدى دقتك.",
+    "flavor": "«من انا من انت و لما تنظر الى هكذا.»"
+  },
+  {
+    "id": "farmer",
+    "name": "Farmer",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 55,
+    "otherNightReminder": "إذا مات مزارع الليلة، اختر لاعباً جيداً آخر واجعله المزارع. أيقظ ذلك اللاعب واعرض عليه بطاقة «أنت» ورمز المزارع.",
+    "reminders": [],
+    "setup": false,
+    "ability": "عندما تموت في الليل، يصبح لاعب جيد حي مزارعاً.",
+    "flavor": "«يجب ان اهتم بالمزرعة مثل اللذي سبقني و اللذي سبقه و اللذي سيأتي من بعدي.»"
+  },
+  {
+    "id": "minstrel",
+    "name": "Minstrel",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "الجميع ثميل"
+    ],
+    "setup": false,
+    "ability": "عندما يموت تابع بالإعدام، يكون جميع اللاعبين الآخرين (ما عدا المسافرين) ثميلين حتى غروب شمس الغد.",
+    "flavor": "«لقد فزنا في معركة اليوم فأحتفلو و ارقصو حتى تسقطو من التعب.»"
+  },
+  {
+    "id": "ravenkeeper",
+    "name": "Ravenkeeper",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 59,
+    "otherNightReminder": "إذا مات حارس الغراب الليلة: يشير حارس الغراب إلى لاعب. اعرض رمز شخصية ذلك اللاعب.",
+    "reminders": [],
+    "setup": false,
+    "ability": "إذا مت في الليل، يتم إيقاظك لتختار لاعباً: تتعلم شخصيته.",
+    "flavor": "«اطعمتهما و الآن التصقو بي، اصبحت اسمع نظريات الغربان كل يوم.»"
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 48,
+    "otherNightReminder": "إذا قتل غول الحكيم: أشر إلى لاعبين، أحدهما هو ذلك الغول.",
+    "reminders": [],
+    "setup": false,
+    "ability": "إذا قتلك الغول، تتعلم أنه أحد لاعبين اثنين.",
+    "flavor": "«لي اجلكم انا ضحية ، من اجلي هيا اقتلني.»"
+  },
+  {
+    "id": "choirboy",
+    "name": "Choirboy",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 51,
+    "otherNightReminder": "إذا قتل الغول الملك، فأيقظ خادم الجوقة وأشر إلى لاعب الغول.",
+    "reminders": [],
+    "setup": true,
+    "ability": "إذا قتل الغول الملك، تتعلم أي لاعب هو الغول. [+ الملك]",
+    "flavor": "«اعزف النغم من خلف العرش ، لكل من يأتي للملك.»"
+  },
+  {
+    "id": "banshee",
+    "name": "Banshee",
+    "team": "townsfolk",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 49,
+    "otherNightReminder": "أعلن أن البانشي قد ماتت.",
+    "reminders": [
+      "لديه قدرة"
+    ],
+    "setup": false,
+    "ability": "إذا قتلك الغول، يعلم جميع اللاعبين ذلك. من الآن فصاعداً، يمكنك الترشيح مرتين في اليوم والتصويت مرتين لكل ترشيح.",
+    "flavor": "«لا لماذا لماذا لماذا وجب ان اموت هكذا.»"
+  },
+  {
+    "id": "tealady",
+    "name": "Tea Lady",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "لا يمكنه الموت",
+      "لا يمكنه الموت"
+    ],
+    "setup": false,
+    "ability": "إذا كان جاراك الحيان جيدين، لا يمكنهما الموت.",
+    "flavor": "«لا للعنف في حفلة الشاي ليس و انا من اعدها.»"
+  },
+  {
+    "id": "mayor",
+    "name": "Mayor",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "إذا بقي 3 لاعبين فقط ولم يحدث إعدام، يفوز فريقك. إذا مت في الليل، قد يموت لاعب آخر بدلاً منك.",
+    "flavor": "«لي نبقى معا لنبني معا كي اعيش-- اقصد نعيش.»"
+  },
+  {
+    "id": "fool",
+    "name": "Fool",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "لا قدرة"
+    ],
+    "setup": false,
+    "ability": "في المرة الأولى التي تموت فيها، لا تموت.",
+    "flavor": "«اول من تدهسه العربة يخسر ، من الجيد انهم لم يروها تدهسني المرة الاولى.»"
+  },
+  {
+    "id": "virgin",
+    "name": "Virgin",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "لا قدرة"
+    ],
+    "setup": false,
+    "ability": "في المرة الأولى التي يتم ترشيحك فيها، إذا كان المرشح من سكان البلدة، يتم إعدامه فوراً.",
+    "flavor": "«كل المرشحين يموتون يبدو بأن الوحدة هي مصيري.»"
+  },
+  {
+    "id": "magician",
+    "name": "Magician",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 7,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "الغول يعتقد أنك تابع. الأتباع يعتقدون أنك غول.",
+    "flavor": "«بالطبع لي نقتل الجميع ، بالطبع لي نسمم الجميع ، و في خدعتي التالية سأتلاعب بكم جميعا.»"
+  },
+  {
+    "id": "poppygrower",
+    "name": "Poppy Grower",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 5,
+    "firstNightReminder": "لا تُخبر الغول والأتباع بهويات بعضهم بعضاً.",
+    "otherNight": 3,
+    "otherNightReminder": "إذا مات مزارع الخشخاش، عرّف الأتباع والغول بهويات بعضهم بعضاً.",
+    "reminders": [
+      "الأشرار يستيقظون"
+    ],
+    "setup": false,
+    "ability": "الأتباع والغيلان لا يعرفون بعضهم البعض. إذا مت، يتعلمون من هم بعضهم البعض تلك الليلة.",
+    "flavor": "«انمو اكثر اكثر حتى لا استطيع رؤية ظلي.»"
+  },
+  {
+    "id": "pacifist",
+    "name": "Pacifist",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "اللاعبون الجيدون الذين يتم إعدامهم قد لا يموتون.",
+    "flavor": "«لا للعنف لا ، لا للسم لا ، لا للموت--لا لقد مات.»"
+  },
+  {
+    "id": "atheist",
+    "name": "Atheist",
+    "edition": "carousel",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "يمكن لراوي القصة كسر قواعد اللعبة، وإذا تم إعدامه، يفوز الخير، حتى لو كنت ميتاً. [لا شخصيات شريرة]",
+    "special": [
+      {
+        "type": "selection",
+        "name": "good-duplicate"
+      }
+    ],
+    "flavor": "«انتم تعتقدون بأن هناك غول بيننا ، بينما الغول الحقيقي في داخل كل منا.»"
+  },
+  {
+    "id": "fortuneteller",
+    "name": "Fortune Teller",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 42,
+    "firstNightReminder": "يشير قارئ الطالع إلى لاعبين. أعطِ إشارة الرأس (أومئ بنعم أو حرّك رأسك بالنفي) لتحديد ما إذا كان أحدهما هو الغول.",
+    "otherNight": 61,
+    "otherNightReminder": "يشير قارئ الطالع إلى لاعبين. أعطِ إشارة الرأس (أومئ بـ«نعم» أو حرّك رأسك بالنفي) لتحديد ما إذا كان أحدهما هو الغول.",
+    "reminders": [
+      "Red herring"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعبين: تتعلم إذا كان أيٌّ منهما غولاً. هناك لاعب جيد واحد يظهر لك على أنه غول.",
+    "flavor": "«ارى لون احمر ، ارى مخالب ، ارى دجاجة!.»"
+  },
+  {
+    "id": "undertaker",
+    "name": "Undertaker",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 62,
+    "otherNightReminder": "إذا أُعدم لاعب اليوم، اعرض رمز شخصية ذلك اللاعب.",
+    "reminders": [
+      "Executed"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، تتعلم شخصية اللاعب الذي مات بالإعدام اليوم.",
+    "flavor": "«ان الأعدام رحمة امام الغول ، على الأقل تبقى الجثة كامله.»"
+  },
+  {
+    "id": "monk",
+    "name": "Monk",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 12,
+    "otherNightReminder": "أزل الحماية عن اللاعب الذي كان محمياً سابقاً. يشير الراهب إلى لاعب غير نفسه. ضع على ذلك اللاعب علامة «محمي».",
+    "reminders": [
+      "Protected"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعباً (ليس نفسك): يكون آمناً من الغول الليلة.",
+    "flavor": "«خد هذه القلادة و علقها على الباب و اغلقه، طريقة فعاله لي ردع الغول تعلمتها من من»"
+  },
+  {
+    "id": "slayer",
+    "name": "Slayer",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، خلال النهار، اختر لاعباً علناً: إذا كان هو الغول، يموت.",
+    "flavor": "«اعطني اي شيء و سأنحر الغول ، لكن وجود الفيلين الملتصقين المحاربين سيكون رائعا.»"
+  },
+  {
+    "id": "exorcist",
+    "name": "Exorcist",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 23,
+    "otherNightReminder": "يشير طارد الأرواح إلى لاعب مختلف عن لاعب الليلة السابقة. إذا كان ذلك اللاعب هو الغول: أيقظ الغول، واعرض له رمز طارد الأرواح، ثم أشر إلى طارد الأرواح. لا ينفذ الغول أفعاله الليلة.",
+    "reminders": [
+      "Chosen"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعباً (مختلفاً عن الليلة الماضية): إذا كان هو الغول، يتعلم من أنت، ثم لا يستيقظ الليلة.",
+    "flavor": "«انت اليوم لن تقتل احدا لن اسمح لك ، اما عن الغد ففعل ماشئت»"
+  },
+  {
+    "id": "innkeeper",
+    "name": "Innkeeper",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 9,
+    "otherNightReminder": "أزل علامتي الحماية والثمالة عن اللاعبين اللذين كانا محميين وثملين سابقاً. يشير صاحب النزل إلى لاعبين. يصبح كلاهما محمياً، ويصبح أحدهما ثملاً.",
+    "reminders": [
+      "Protected",
+      "Drunk"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعبين: لا يمكنهما الموت الليلة، لكن أحدهما يصبح ثملاً حتى الغسق.",
+    "flavor": "«غرفتان غير محجوزتان ، املئ احداهما بالنبيذ.»"
+  },
+  {
+    "id": "gambler",
+    "name": "Gambler",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 10,
+    "otherNightReminder": "يشير المقامر إلى لاعب وإلى شخصية في ورقة الشخصيات. إذا كان التخمين خاطئاً، يموت المقامر.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعباً وخمّن شخصيته: إذا أخطأت في التخمين، تموت.",
+    "flavor": "«بالطبع الامر سهل أشر بي اصبعك و قل هل انت الغول ، بالطبع سوف تموت.»"
+  },
+  {
+    "id": "gossip",
+    "name": "Gossip",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 43,
+    "otherNightReminder": "إذا كان تصريح النمّام العلني صحيحاً: اختر لاعباً غير محمي من الموت الليلة. يموت ذلك اللاعب.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "كل يوم، يمكنك الإدلاء بتصريح علني. الليلة، إذا كان التصريح صحيحاً، يموت لاعب.",
+    "flavor": "«قال بأنه سيقتلك ! سمعته بعيني..كانت الآنسة هي من اكلت كعكة الجدة.»"
+  },
+  {
+    "id": "courtier",
+    "name": "Courtier",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 22,
+    "firstNightReminder": "إما أن يعطي الحاشي إشارة رأس بالنفي، أو يشير إلى شخصية في الورقة. إذا استخدم الحاشي قدرته، وكانت تلك الشخصية موجودة في اللعبة، يصبح ذلك اللاعب ثملاً.",
+    "otherNight": 8,
+    "otherNightReminder": "قلّل عدد الأيام المتبقية لسمّ اللاعب المحدد. إذا لم يكن الحاشي قد استخدم قدرته بعد، فإما أن يعطي إشارة رأس بالنفي أو يشير إلى شخصية في الورقة. إذا استخدم الحاشي قدرته وكانت تلك الشخصية موجودة في اللعبة، يصبح ذلك اللاعب ثملاً.",
+    "reminders": [
+      "Drunk 3",
+      "Drunk 2",
+      "Drunk 1",
+      "No ability"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، في الليل، اختر شخصية: تصبح ثملاً لمدة 3 ليالٍ و3 أيام.",
+    "flavor": "«لا احد يتوقف في الكأس الثانية ، ثلاثة كؤوس هوا عدد مثالي.»"
+  },
+  {
+    "id": "professor",
+    "name": "Professor",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 50,
+    "otherNightReminder": "إذا لم يكن الأستاذ قد استخدم قدرته بعد: إما أن يهز رأسه بالنفي أو يشير إلى لاعب. إذا كان ذلك اللاعب من سكان البلدة، يصبح حياً الآن.",
+    "reminders": [
+      "Alive",
+      "No ability"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، في الليل*، اختر لاعباً ميتاً: إذا كان من سكان البلدة، يُبعث من الموت.",
+    "flavor": "«انه ميت ، انه حي ، انه ميت ، لا حقا انه ميت.»"
+  },
+  {
+    "id": "dreamer",
+    "name": "Dreamer",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 46,
+    "firstNightReminder": "يشير الحالم إلى لاعب. اعرض رمز شخصية جيدة ورمز شخصية شريرة؛ أحدهما صحيح.",
+    "otherNight": 63,
+    "otherNightReminder": "يشير الحالم إلى لاعب. اعرض رمز شخصية جيدة ورمز شخصية شريرة؛ أحدهما صحيح.",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً (ليس نفسك أو المسافرين): تتعلم شخصية جيدة وشخصية شريرة، واحدة منهما صحيحة.",
+    "flavor": "«رأيتك في حلمي البارحة شعرت بأنه حلم مهم لكن انت كنت بطه.»"
+  },
+  {
+    "id": "snakecharmer",
+    "name": "Snake Charmer",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 23,
+    "firstNightReminder": "يشير ساحر الأفاعي إلى لاعب. إذا كان ذلك اللاعب هو الغول، فبدّل شخصية الغول وانحيازه مع شخصية ساحر الأفاعي وانحيازه. أيقظ كلا اللاعبين وأخبر كل واحد منهما بدوره وانحيازه الجديد. يصبح ساحر الأفاعي الجديد مسموماً.",
+    "otherNight": 11,
+    "otherNightReminder": "يشير ساحر الأفاعي إلى لاعب. إذا كان ذلك اللاعب هو الغول، فبدّل شخصية الغول وانحيازه مع شخصية ساحر الأفاعي وانحيازه. أيقظ كلا اللاعبين وأخبر كل واحد منهما بدوره وانحيازه الجديد. يصبح ساحر الأفاعي الجديد مسموماً.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً حياً: إذا كان هو الغول، يتبادل معك الشخصية والانحياز، ثم يصبح مسموماً.",
+    "flavor": "«قل مرحبا لي الافعى جيرمي ، لا تقلق لن يعظك طالما انت شخص جيد.»"
+  },
+  {
+    "id": "mathematician",
+    "name": "Mathematician",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 62,
+    "firstNightReminder": "اعرض إشارة الأصابع للعدد (0، 1، 2، إلخ) من اللاعبين الذين تعطلت قدراتهم بسبب قدرات أخرى.",
+    "otherNight": 80,
+    "otherNightReminder": "اعرض إشارة الأصابع للعدد (0، 1، 2، إلخ) من اللاعبين الذين تعطلت قدراتهم بسبب قدرات أخرى.",
+    "reminders": [
+      "Abnormal"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، تتعلم عدد اللاعبين الذين عملت قدراتهم بشكل غير طبيعي (منذ الفجر) بسبب قدرة شخصية أخرى.",
+    "flavor": "«الاجابة هي 4 ، حتى لو شرحت لك لن تفهما بطبع.»"
+  },
+  {
+    "id": "flowergirl",
+    "name": "Flowergirl",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 64,
+    "otherNightReminder": "أومئ بـ«نعم» أو حرّك رأسك بالنفي لتحديد ما إذا كان الغول قد صوّت اليوم. ضع علامة «الغول لم يصوّت» (وأزل علامة «الغول صوّت»، إن وُجدت).",
+    "reminders": [
+      "Demon voted",
+      "Demon not voted"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، تتعلم ما إذا كان الغول قد صوّت اليوم.",
+    "flavor": "«يحبني لا يحبني يحبني لا يحبني ، صوت الغول لم يصوت الغول.»"
+  },
+  {
+    "id": "towncrier",
+    "name": "Town Crier",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 65,
+    "otherNightReminder": "أومئ بـ«نعم» أو حرّك رأسك بالنفي لتحديد ما إذا كان تابع قد رشّح اليوم. ضع علامة «التابع لم يرشّح» (وأزل علامة «التابع رشّح»، إن وُجدت).",
+    "reminders": [
+      "Minions not nominated",
+      "Minion nominated"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، تتعلم ما إذا كان أحد الأتباع قد رشّح اليوم.",
+    "flavor": "«عند سماع الجرس ليرفع الغول يده ، ليس انت قلت الغول.»"
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 66,
+    "otherNightReminder": "اعرض إشارة الأصابع للعدد (0، 1، 2، إلخ) من اللاعبين الأشرار الموتى.",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل ليلة*، تتعلم عدد اللاعبين الموتى الذين هم أشرار.",
+    "flavor": "«ايتها الارواح الشريرة اظهري نفسك.»"
+  },
+  {
+    "id": "savant",
+    "name": "Savant",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل يوم، يمكنك زيارة راوي القصة لتتعلم منه سراً شيئين: أحدهما صحيح والآخر خاطئ.",
+    "flavor": "«الآن انا اعلم شيئين الأول انك انت الغول ، الثاني انني بطة و انا لا أعلم ايهما صحيح.»"
+  },
+  {
+    "id": "seamstress",
+    "name": "Seamstress",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 47,
+    "firstNightReminder": "إما أن تعطي الخياطة إشارة رأس بالنفي، أو تشير إلى لاعبين آخرين. إذا اختارت لاعبين، أومئ بـ«نعم» أو حرّك رأسك بالنفي لتحديد ما إذا كان انحيازهما متماثلاً.",
+    "otherNight": 67,
+    "otherNightReminder": "إذا لم تكن الخياطة قد استخدمت قدرتها بعد: إما أن تعطي إشارة رأس بالنفي أو تشير إلى لاعبين آخرين. إذا اختارت لاعبين، أومئ بـ«نعم» أو حرّك رأسك بالنفي لتحديد ما إذا كان انحيازهما متماثلاً.",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، في الليل، اختر لاعبين (ليس نفسك): تتعلم ما إذا كان انحيازهما متماثلاً.",
+    "flavor": "«خيوط القدر تربطكم معا ، و تلك الخيوط يصعب اخفائها.»"
+  },
+  {
+    "id": "philosopher",
+    "name": "Philosopher",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 2,
+    "firstNightReminder": "إما أن يعطي الفيلسوف إشارة رأس بالنفي، أو يشير إلى شخصية جيدة في ورقته. إذا اختار شخصية، فاستبدل رمز الشخصية غير الموجودة في اللعبة برمز الفيلسوف، وأضف علامة تذكير «هو الفيلسوف». إذا كانت الشخصية موجودة في اللعبة، ضع علامة الثمالة بجانب ذلك اللاعب.",
+    "otherNight": 2,
+    "otherNightReminder": "إذا لم يكن الفيلسوف قد استخدم قدرته: إما أن يعطي إشارة رأس بالنفي أو يشير إلى شخصية جيدة في ورقته. إذا اختار شخصية، فاستبدل رمز الشخصية غير الموجودة في اللعبة برمز الفيلسوف، وأضف علامة تذكير «هو الفيلسوف». إذا كانت الشخصية موجودة في اللعبة، ضع علامة الثمالة بجانب ذلك اللاعب.",
+    "reminders": [
+      "Drunk",
+      "Is the Philosopher"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، في الليل، اختر شخصية جيدة: تكتسب قدرتها. إذا كانت هذه الشخصية موجودة في اللعبة، تصبح ثملى.",
+    "flavor": "«اكون او لا اكون لا سأعطيك سؤال افضل ، تكون او لا تكون ايهما انا اختار.»"
+  },
+  {
+    "id": "artist",
+    "name": "Artist",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، خلال النهار، اسأل راوي القصة سراً أي سؤال تكون إجابته نعم أو لا.",
+    "flavor": "«الحقيقة مجرد مفهوم يحدده المستمع ، مثل رسمة رسمها فنان تجريدي.»"
+  },
+  {
+    "id": "juggler",
+    "name": "Juggler",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 68,
+    "otherNightReminder": "إذا كان اليوم هو أول يوم للمشعوذ: اعرض إشارة الأصابع للعدد (0، 1، 2، إلخ) من علامات «صحيح». أزل العلامات.",
+    "reminders": [
+      "Correct"
+    ],
+    "setup": false,
+    "ability": "في يومك الأول، خمّن علناً شخصيات ما يصل إلى 5 لاعبين. في تلك الليلة، تتعلم عدد التخمينات الصحيحة.",
+    "flavor": "«شاهدني اتلاعب بي خمسة كرات بينما اخبر اسرار خمسة اشخاص.»"
+  },
+  {
+    "id": "king",
+    "name": "King",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 13,
+    "firstNightReminder": "أيقظ الغول، واعرض عليه بطاقة «هذه الشخصية اختارتك» ورمز الملك، ثم أشر إلى لاعب الملك.",
+    "otherNight": 71,
+    "otherNightReminder": "إذا كان عدد الموتى أكبر من عدد الأحياء، اعرض للملك رمز شخصية لاعب حي.",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل ليلة، إذا كان عدد الموتى أكبر من عدد الأحياء، تتعلم شخصية لاعب حي واحد. الغول يعرف من أنت.",
+    "flavor": "«طالما الوضع تحت السيطرة لست بالحاجة لي التحرك اليس كذلك.»"
+  },
+  {
+    "id": "cultleader",
+    "name": "Cult Leader",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 56,
+    "firstNightReminder": "إذا تغيّر انحياز قائد الطائفة، فأعطه إشارة الإبهام للأعلى للخير أو للأسفل للشر وفقاً لذلك.",
+    "otherNight": 74,
+    "otherNightReminder": "إذا تغيّر انحياز قائد الطائفة، فأعطه إشارة الإبهام للأعلى للخير أو للأسفل للشر وفقاً لذلك.",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل ليلة، تصبح من انحياز جار حي لك. إذا اختار جميع اللاعبين الجيدين الانضمام إلى طائفتك، يفوز فريقك.",
+    "flavor": "«سفر ، سياحة ، اموال طائلة ، كلها قريبة منك فقط انظم الي.»"
+  },
+  {
+    "id": "lycanthrope",
+    "name": "Lycanthrope",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 24,
+    "otherNightReminder": "يشير المستذئب إلى لاعب حي؛ إذا كان جيداً، يموت ولا يمكن لأي شخص آخر أن يموت الليلة.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعباً حياً: إذا كان جيداً، يموت، لكنه يكون اللاعب الوحيد الذي يمكن أن يموت الليلة.",
+    "flavor": "«فقط مت لي اجلي و ثق بي انا لست بي وحش.»"
+  },
+  {
+    "id": "nightwatchman",
+    "name": "Nightwatchman",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 55,
+    "firstNightReminder": "يمكن لحارس الليل أن يشير إلى لاعب. أيقظ ذلك اللاعب، واعرض عليه بطاقة «هذه الشخصية اختارتك» ورمز حارس الليل، ثم أشر إلى لاعب حارس الليل.",
+    "otherNight": 73,
+    "otherNightReminder": "يمكن لحارس الليل أن يشير إلى لاعب. أيقظ ذلك اللاعب، واعرض عليه بطاقة «هذه الشخصية اختارتك» ورمز حارس الليل، ثم أشر إلى لاعب حارس الليل.",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، في الليل، اختر لاعباً: يتعلم من أنت.",
+    "flavor": "«اسهر من اجلكم كل يوم وحدي ، سيكون من الجيد وجود رفقة اليوم.»"
+  },
+  {
+    "id": "engineer",
+    "name": "Engineer",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 16,
+    "firstNightReminder": "إما أن يعطي المهندس إشارة رأس بالنفي، أو يشير إلى غول، أو يشير إلى العدد المناسب من الأتباع. إذا اختار المهندس شخصيات، فاستبدل الغول أو الأتباع بالشخصيات المختارة، ثم أيقظ اللاعبين المعنيين واعرض عليهم بطاقة «أنت» ورموز الشخصيات المناسبة.",
+    "otherNight": 5,
+    "otherNightReminder": "إما أن يعطي المهندس إشارة رأس بالنفي، أو يشير إلى غول، أو يشير إلى العدد المناسب من الأتباع. إذا اختار المهندس شخصيات، فاستبدل الغول أو الأتباع بالشخصيات المختارة، ثم أيقظ اللاعبين المعنيين واعرض عليهم بطاقة «أنت» ورموز الشخصيات المناسبة.",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، في الليل، اختر أي الأتباع أو أي غول موجود في اللعبة.",
+    "flavor": "«يسخرون مني ، قالو بأن اختراعاتي بلا فائدة و كلها افتراضات ، سوف اريهم رعب الافتراضات»"
+  },
+  {
+    "id": "fisherman",
+    "name": "Fisherman",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، خلال النهار، زر راوي القصة لتحصل على نصيحة تساعدك على الفوز.",
+    "flavor": "«التحدث مع السمك ابسط من البشر ، البشر وحوش و السمك لديه حكمة ، و حكمة اليوم انك انت هو الأحمق.»"
+  },
+  {
+    "id": "huntsman",
+    "name": "Huntsman",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 34,
+    "firstNightReminder": "يهز الصياد رأسه بالنفي أو يشير إلى لاعب. إذا أشار إلى الآنسة، فأيقظ ذلك اللاعب واعرض عليه بطاقة «أنت» ورمز شخصية غير موجودة في اللعبة.",
+    "otherNight": 52,
+    "otherNightReminder": "يهز الصياد رأسه بالنفي أو يشير إلى لاعب. إذا أشار إلى الآنسة، فأيقظ ذلك اللاعب واعرض عليه بطاقة «أنت» ورمز شخصية غير موجودة في اللعبة.",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": true,
+    "ability": "مرة واحدة في اللعبة، في الليل، اختر لاعباً حياً: إذا كانت الشخصية المختارة هي الآنسة، تصبح الشخصية الجيدة المختارة شخصية غير موجودة في اللعبة. [+الآنسة]",
+    "flavor": "«اسطاد من اجل عائلتي و من اجل نفسي و من اجل الملك انا أبحث عنك.»"
+  },
+  {
+    "id": "scapegoat",
+    "name": "Scapegoat",
+    "team": "traveller",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "إذا تم إعدام لاعب من انحيازك، قد يتم إعدامك أنت بدلاً منه.",
+    "flavor": "«لا تقلها ارجوك ، لقد قفزت من اجلك قبل ان تتحدث.»"
+  },
+  {
+    "id": "gunslinger",
+    "name": "Gunslinger",
+    "team": "traveller",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل يوم، بعد فرز أول تصويت، يمكنك اختيار لاعب صوّت: يموت.",
+    "flavor": "«لا تلمني عندما اطلق هوا من رفع يده.»"
+  },
+  {
+    "id": "beggar",
+    "name": "Beggar",
+    "team": "traveller",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "يجب عليك استخدام رمز تصويت للتصويت. إذا أعطاك لاعب ميت رمزه، تتعلم انحيازه. أنت رزين وصحيح.",
+    "flavor": "«عملة ارجوك سيدي اعطني عملة او صوتك ان امكن»"
+  },
+  {
+    "id": "bureaucrat",
+    "name": "Bureaucrat",
+    "team": "traveller",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "يشير البيروقراطي إلى لاعب. ضع علامة تذكير «3 أصوات» الخاصة بالبيروقراطي بجانب رمز شخصية اللاعب المختار.",
+    "otherNight": 0,
+    "otherNightReminder": "يشير البيروقراطي إلى لاعب. ضع علامة تذكير «3 أصوات» الخاصة بالبيروقراطي بجانب رمز شخصية اللاعب المختار.",
+    "reminders": [
+      "صوته 3"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً (ليس نفسك): صوته يحسب بثلاثة أصوات غداً.",
+    "flavor": "«انت تحسب بثلاثة رجال ، اما عشرة فذلك كثير.»"
+  },
+  {
+    "id": "thief",
+    "name": "Thief",
+    "team": "traveller",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "يشير اللص إلى لاعب. ضع علامة تذكير «تصويت سلبي» الخاصة باللص بجانب رمز شخصية اللاعب المختار.",
+    "otherNight": 0,
+    "otherNightReminder": "يشير اللص إلى لاعب. ضع علامة تذكير «تصويت سلبي» الخاصة باللص بجانب رمز شخصية اللاعب المختار.",
+    "reminders": [
+      "صوته سالب"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً (ليس نفسك): صوته يحسب سلباً غداً.",
+    "flavor": "«لست انا من أخد الفيلين الملتصقين المحاربين ، انا بريء»"
+  },
+  {
+    "id": "butcher",
+    "name": "Butcher",
+    "team": "traveller",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "كل يوم، بعد أول إعدام، يمكنك الترشيح مرة أخرى.",
+    "flavor": "«عشرة دجاجات ، عشرة خرفان ، عشرين خروف كلها اختفت  لا ارى اي سبب لي التأخير دعونا ننهي الامر اليوم»"
+  },
+  {
+    "id": "bonecollector",
+    "name": "Bone Collector",
+    "team": "traveller",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "إما أن يهز جامع العظام رأسه بالنفي أو يشير إلى أي لاعب ميت. إذا أشار إلى لاعب ميت، ضع علامة «لديه القدرة» الخاصة بجامع العظام بجانب رمز شخصية اللاعب المختار. (قد يحتاج ذلك اللاعب إلى الاستيقاظ الليلة لاستخدامها.)",
+    "reminders": [
+      "استخدم القدرة",
+      "لديه قدرة"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، في الليل*، اختر لاعباً ميتاً: يستعيد قدرته حتى الغسق.",
+    "flavor": "«العظام كل القوة في العظام.»"
+  },
+  {
+    "id": "harlot",
+    "name": "Harlot",
+    "team": "traveller",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "تشير الغانية إلى أي لاعب. ثم أعد الغانية إلى النوم. أيقظ اللاعب المختار، واعرض عليه علامة «هذه الشخصية اختارتك»، ثم رمز الغانية. إما أن يومئ اللاعب برأسه بنعم أو يهزه بالنفي. إذا أومأ بنعم، فأيقظ الغانية واعرض عليها رمز شخصية اللاعب المختار. بعد ذلك، يمكنك أن تقرر موت كلا اللاعبين.",
+    "reminders": [
+      "وافق",
+      "ميت"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعباً حياً: إذا وافق، تتعلم شخصيته، لكن كليكما قد تموتان.",
+    "flavor": "«هل تريد ان تكون صديقي او اكثر من ذلك.»"
+  },
+  {
+    "id": "barista",
+    "name": "Barista",
+    "team": "traveller",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "اختر لاعباً، أيقظه وأخبره بأي قدرة من قدرات باريستا تؤثر فيه. تعامل معه وفقاً لذلك: يبقى صاحياً، أو سليماً، أو يحصل على معلومات صحيحة، أو يستخدم قدرته مرتين.",
+    "otherNight": 0,
+    "otherNightReminder": "اختر لاعباً، أيقظه وأخبره بأي قدرة من قدرات باريستا تؤثر فيه. تعامل معه وفقاً لذلك: يبقى صاحياً، أو سليماً، أو يحصل على معلومات صحيحة، أو يستخدم قدرته مرتين.",
+    "reminders": [
+      "رزين وصحيح",
+      "يعمل مرتين"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، حتى الغسق: 1) يصبح لاعب رزيناً وصحيحاً ويحصل على معلومات صحيحة، أو 2) قدرته تعمل مرتين. يتعلم أيهما.",
+    "flavor": "«كوب قهوة كاف ان يجعلك تقفز ، او يمكنك ان تأخد كأس من آيس موكا ماتشا باستاشيو لاتي برو ماكس.»"
+  },
+  {
+    "id": "deviant",
+    "name": "Deviant",
+    "team": "traveller",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "إذا كنت مضحكاً اليوم، لا يمكن أن تموت بالنفي.",
+    "flavor": "«الفكاهة تجري في عروقي ، معها دمي و افضل ان يبقى هكذا.»"
+  },
+  {
+    "id": "judge",
+    "name": "Judge",
+    "team": "traveller",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "استخدم القدرة"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، إذا تم ترشيح، يمكنك إعلان نجاح التصويت أو فشله (متجاهلاً الأصوات).",
+    "flavor": "«القانون حكمه نهائي ، الجميع تحت القانون ، إلا انا بالطبع»"
+  },
+  {
+    "id": "bishop",
+    "name": "Bishop",
+    "team": "traveller",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "أنت فقط من يمكنه ترشيح أو إعدام المسافرين. في المرة الأولى التي يتم فيها إعدام مسافر، يتعلم الغول 3 تضليلات.",
+    "flavor": "«انتم لستم منا ، و نحن لسنا منكم ، قوانينكم لن تعمل معنا، لذلك دعوني اضع قوانين جديده.»"
+  },
+  {
+    "id": "matron",
+    "name": "Matron",
+    "team": "traveller",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "استخدم القدرة"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، يمكنك تبديل مقعدي لاعبين.",
+    "flavor": "«ما هذه الفوضى  ، ارجو منكم النظام.»"
+  },
+  {
+    "id": "voudon",
+    "name": "Voudon",
+    "team": "traveller",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "استخدم القدرة"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، يمكنك اختيار لاعب: يتم إعدامه فوراً، حتى لو كان ميتاً. الغول يتعلم شخصيتك.",
+    "flavor": "«من فضلك مت.»"
+  },
+  {
+    "id": "gangster",
+    "name": "Gangster",
+    "team": "traveller",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "استخدم القدرة",
+      "ميت"
+    ],
+    "setup": false,
+    "ability": "مرة واحدة في اللعبة، يمكنك اختيار لاعب: يموت الليلة. إذا كان جيداً، قد تموت أنت أيضاً.",
+    "flavor": "«لا خائن يعيش بيننا ، ايها الجرذ.»"
+  },
+  {
+    "id": "apprentice",
+    "name": "Apprentice",
+    "team": "traveller",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "اعرض على المتدرّب بطاقة «أنت»، ثم رمز أحد سكان البلدة أو أحد الأتباع. في كتاب الأسرار، استبدل رمز المتدرّب برمز تلك الشخصية، وضع علامة تذكير «هو المتدرّب» الخاصة بالمتدرّب بجانب رمز الشخصية.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "لديه قدرة"
+    ],
+    "setup": false,
+    "ability": "في ليلتك الأولى، اختر شخصية: تكتسب قدرتها حتى تموت أو تغادر اللعبة.",
+    "flavor": "«سينسي كيف تعمل هذه.»"
+  },
+  {
+    "id": "yaggababble",
+    "name": "Yaggababble",
+    "team": "demon",
+    "edition": "carousel",
+    "firstNight": 6,
+    "firstNightReminder": "اعرض على الياغابابل عبارته السرية.",
+    "otherNight": 39,
+    "otherNightReminder": "اختر عدداً من اللاعبين لا يتجاوز عدد المرات التي قال فيها الياغابابل عبارته السرية علناً؛ يموت أولئك اللاعبون.",
+    "reminders": [
+      "ميت",
+      "ميت",
+      "ميت"
+    ],
+    "setup": false,
+    "ability": "تبدأ اللعبة وأنت تعرف عبارة سرية. لكل مرة قلتها علناً اليوم، قد يموت لاعب.",
+    "flavor": "«بلا بلو بلي انت ميت بلو بلا بلي انت ميت.»"
+  },
+  {
+    "id": "pukka",
+    "name": "Pukka",
+    "edition": "bmr",
+    "team": "demon",
+    "firstNight": 32,
+    "firstNightReminder": "يشير بوكا إلى لاعب. يصبح ذلك اللاعب مسموماً.",
+    "otherNight": 28,
+    "otherNightReminder": "يشير بوكا إلى لاعب، فيصبح ذلك اللاعب مسموماً. يموت اللاعب الذي كان مسموماً سابقاً.",
+    "reminders": [
+      "مسموم",
+      "مسموم",
+      "ميت"
+    ],
+    "setup": false,
+    "ability": "كل ليلة، اختر لاعباً: يكون مسموماً. اللاعب المسموم سابقاً يموت ثم يصبح سليماً.",
+    "flavor": "«وخزه بسيطه كفيلة بي قتلك ، ياليتهم يتعلمون جيدة لكان سمهم اقوى»"
+  },
+  {
+    "id": "lilmonsta",
+    "name": "Lil' Monsta",
+    "edition": "carousel",
+    "team": "demon",
+    "firstNight": 18,
+    "firstNightReminder": "أيقظ جميع الأتباع معاً، واسمح لهم بالتصويت بالإشارة إلى من يريدون أن يرعى ليل مونستا.",
+    "otherNight": 38,
+    "otherNightReminder": "أيقظ جميع الأتباع معاً، واسمح لهم بالتصويت بالإشارة إلى من يريدون أن يرعى ليل مونستا. اختر لاعباً؛ يموت ذلك اللاعب.",
+    "reminders": [],
+    "remindersGlobal": [
+      "هو الغول",
+      "ميت"
+    ],
+    "setup": true,
+    "ability": "كل ليلة، يختار الأتباع من يجلس مع ليل مونستا و'هو الغول'. كل ليلة*، قد يموت لاعب. [+1 تابع]",
+    "special": [
+      {
+        "type": "ability",
+        "name": "pointing",
+        "time": "night",
+        "global": "minion"
+      },
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ],
+    "flavor": "«اولا الأفتار ثم قيلولة بعدها عزو العالن.»"
+  },
+  {
+    "id": "nodashii",
+    "name": "No Dashii",
+    "edition": "snv",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 32,
+    "otherNightReminder": "يشير نو داشي إلى لاعب. يموت ذلك اللاعب.",
+    "reminders": [
+      "ميت",
+      "مسموم",
+      "مسموم"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعباً: يموت. جاراك من سكان البلدة مسمومان.",
+    "flavor": "«لا تشعر بالتوتر و استرخي يا جاري العزيز ، اشعر بالأمان بينما تعتصرك ذراعي.»"
+  },
+  {
+    "id": "imp",
+    "name": "Imp",
+    "edition": "tb",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 26,
+    "otherNightReminder": "يشير الغول إلى لاعب. يموت ذلك اللاعب. إذا اختار الغول نفسه: استبدل شخصية تابع حي واحد برمز غول احتياطي. اعرض بطاقة «أنت»، ثم رمز الغول.",
+    "reminders": [
+      "ميت"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعباً: يموت. إذا قتلت نفسك بهذه الطريقة، يصبح تابع هو الإمب.",
+    "flavor": "«لا ترفع من شأنك كثيرا فقط لي انك استطعت حجزي في الزاوية»"
+  },
+  {
+    "id": "shabaloth",
+    "name": "Shabaloth",
+    "edition": "bmr",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 29,
+    "otherNightReminder": "قد يُبعث أحد اللاعبين الذين اختارهم الشابالوث في الليلة السابقة. يشير الشابالوث إلى لاعبين؛ يموت هذان اللاعبان.",
+    "reminders": [
+      "ميت",
+      "ميت",
+      "حي"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعبين: يموتان. قد يتم قيء لاعب ميت اخترته الليلة الماضية.",
+    "flavor": "«اقظم اكثر مما استطيع ان امضغ ، الجوع مشكلة حق.»"
+  },
+  {
+    "id": "ojo",
+    "name": "Ojo",
+    "team": "demon",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 35,
+    "otherNightReminder": "يشير أوجو إلى شخصية في الورقة؛ إذا كانت موجودة في اللعبة، يموت اللاعب الذي يحملها. إذا لم تكن موجودة، يختار راوي القصة من يموت بدلاً منه.",
+    "reminders": [
+      "ميت"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر شخصية: تموت. إذا لم تكن موجودة في اللعبة، يختار راوي القصة من يموت.",
+    "flavor": "«رأيتك بعيني ، و رأيت مصيرك بعيني ، و سأرى موتك بعيني.»"
+  },
+  {
+    "id": "kazali",
+    "name": "Kazali",
+    "team": "demon",
+    "edition": "carousel",
+    "firstNight": 3,
+    "firstNightReminder": "يشير كازالي إلى لاعب وتابع في ورقة الشخصيات. يكرر ذلك بعدد الأتباع الذين يفترض وجودهم في اللعبة. غيّر رموز أولئك اللاعبين في كتاب الأسرار إلى رموز الأتباع المختارة. أيقظ أولئك اللاعبين، واعرض عليهم بطاقة «أنت»، ورموز الأتباع الذين أصبحوا عليها، وإشارة الإبهام إلى الأسفل.",
+    "otherNight": 40,
+    "otherNightReminder": "يشير كازالي إلى لاعب. يموت ذلك اللاعب.",
+    "reminders": [
+      "ميت"
+    ],
+    "setup": true,
+    "ability": "كل ليلة*، اختر لاعباً: يموت. [أنت تختار أي اللاعبين هم أي الأتباع. -? إلى +? غرباء]",
+    "flavor": "«التالي ، من الصعب الحصول على اتباع اكفاء ، اصعب من الحصول على طعام صحي»"
+  },
+  {
+    "id": "po",
+    "name": "Po",
+    "edition": "bmr",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 30,
+    "otherNightReminder": "إذا لم يختر بو أحداً في الليلة السابقة: يشير بو إلى ثلاثة لاعبين. وإلا، فإما أن يعطي بو إشارة رأس بالنفي أو يشير إلى لاعب. يموت اللاعب أو اللاعبون المختارون.",
+    "reminders": [
+      "ميت",
+      "ميت",
+      "ميت",
+      "3 هجمات"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، يمكنك اختيار لاعب: يموت. إذا كان اختيارك السابق لا أحد، اختر 3 لاعبين الليلة.",
+    "flavor": "«احتاجكم كلكم كي اعوض وحدتي.»"
+  },
+  {
+    "id": "zombuul",
+    "name": "Zombuul",
+    "edition": "bmr",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 27,
+    "otherNightReminder": "إذا لم يمت أحد خلال النهار: يشير زومبول إلى لاعب. يموت ذلك اللاعب.",
+    "reminders": [
+      "مات اليوم",
+      "ميت"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، إذا لم يمت أحد اليوم، اختر لاعباً: يموت. في المرة الأولى التي تموت فيها، تعيش ولكن يتم تسجيلك كميت.",
+    "flavor": "«عااغ غوووع عاااغ ، افضل مقولة في مماتي.»"
+  },
+  {
+    "id": "vigormortis",
+    "name": "Vigormortis",
+    "edition": "snv",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 34,
+    "otherNightReminder": "يشير فيغورمورتيس إلى لاعب. يموت ذلك اللاعب. إذا كان تابعاً، يحتفظ بقدرته ويصبح أحد جيرانه من سكان البلدة مسموماً.",
+    "reminders": [
+      "ميت",
+      "لديه قدرة",
+      "لديه قدرة",
+      "لديه قدرة",
+      "مسموم",
+      "مسموم",
+      "مسموم"
+    ],
+    "setup": true,
+    "ability": "كل ليلة*، اختر لاعباً: يموت. الأتباع الذين تقتلهم يحتفظون بقدرتهم ويسّمون جاراً واحداً من سكان البلدة. [-1 غريب]",
+    "flavor": "«مت من اجلي ي تابعي ، اخدمني الى الأبد.»"
+  },
+  {
+    "id": "vortox",
+    "name": "Vortox",
+    "edition": "snv",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 33,
+    "otherNightReminder": "يشير فورتوكس إلى لاعب. يموت ذلك اللاعب.",
+    "reminders": [
+      "ميت"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعباً: يموت. قدرات سكان البلدة تعطي معلومات خاطئة. كل يوم، إذا لم يتم إعدام أحد، يفوز الشر.",
+    "flavor": "«العالم يدور و يدور و يدور و يدور و يدور و يدور حتى اختلطت عليكم الحقيقة بالوهم»"
+  },
+  {
+    "id": "legion",
+    "name": "Legion",
+    "edition": "carousel",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 25,
+    "otherNightReminder": "اختر لاعباً؛ يموت ذلك اللاعب.",
+    "reminders": [
+      "ميت",
+      "على وشك الموت"
+    ],
+    "setup": true,
+    "ability": "كل ليلة*، قد يموت لاعب. تفشل عمليات الإعدام إذا صوت الشر فقط. يتم تسجيلك كتابع أيضاً. [معظم اللاعبين هم الفيلق]",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "flavor": "«انت وانا وكلنا فيلق.»"
+  },
+  {
+    "id": "fanggu",
+    "name": "Fang Gu",
+    "edition": "snv",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 31,
+    "otherNightReminder": "يشير فانغ غو إلى لاعب. يموت ذلك اللاعب. أو، إذا كان اللاعب المختار غريباً ولم يكن هناك فانغ غو آخر في اللعبة، يموت فانغ غو بدلاً من اللاعب المختار. يصبح اللاعب المختار الآن فانغ غو شريراً. أيقظ فانغ غو الجديد. اعرض بطاقة «أنت»، ثم رمز فانغ غو. اعرض بطاقة «أنت»، ثم إشارة اليد «شر» بالإبهام إلى الأسفل.",
+    "reminders": [
+      "ميت",
+      "مرة"
+    ],
+    "setup": true,
+    "ability": "كل ليلة*، اختر لاعباً: يموت. أول غريب يقتله هذا يصبح فانغ غو شريراً وتموت أنت بدلاً من ذلك. [+1 غريب]",
+    "flavor": "«لماذا انت من بين الجميع لماذا ، لماذا انا من بين الجميع لماذا.»"
+  },
+  {
+    "id": "lordoftyphon",
+    "name": "Lord of Typhon",
+    "team": "demon",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "أيقظ جيران لورد أوف تيفون. اعرض رمز «أنت» ورمز التابع، وأعطِ إشارة الإبهام إلى الأسفل.",
+    "otherNight": 0,
+    "otherNightReminder": "يختار لورد أوف تيفون لاعباً. :reminder:",
+    "reminders": [
+      "ميت"
+    ],
+    "setup": true,
+    "ability": "كل ليلة*، اختر لاعباً: يموت. [الشخصيات الشريرة في خط. أنت في المنتصف. +1 تابع. -? إلى +? غرباء]",
+    "flavor": "«هي قف على اليمين انت قف على اليسار ابتسموا للصوره ،اه  لقد نسيت لقد فقدتم  القدره على الابتسام»"
+  },
+  {
+    "id": "lleech",
+    "name": "Lleech",
+    "edition": "carousel",
+    "team": "demon",
+    "firstNight": 19,
+    "firstNightReminder": "يشير ليش إلى لاعب. ضع علامة تذكير «مسموم».",
+    "otherNight": 37,
+    "otherNightReminder": "يشير ليش إلى لاعب. يموت ذلك اللاعب.",
+    "reminders": [
+      "ميت",
+      "مسموم"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، اختر لاعباً: يموت. تبدأ باختيار لاعب: يكون مسموماً. تموت إذا وفقط إذا مات.",
+    "flavor": "«يبدو انني وجدت بيتا مناسبا لي ، بيتا من النوع المتنقل.»"
+  },
+  {
+    "id": "alhadikhia",
+    "name": "Al-Hadikhia",
+    "edition": "carousel",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 36,
+    "otherNightReminder": "تختار الحديقة 3 لاعبين. أعلن اسم اللاعب الأول، وأيقظه ليومئ بنعم للبقاء أو يهز رأسه بالنفي للموت، ثم اقتله أو أعده إلى الحياة وفقاً لذلك. أعده إلى النوم ثم أعلن اسم اللاعب التالي. إذا أصبح اللاعبون الثلاثة جميعاً أحياء بعد ذلك، يموتون جميعاً.",
+    "reminders": [
+      "1",
+      "2",
+      "3"
+    ],
+    "setup": false,
+    "ability": "كل ليلة*، يمكنك اختيار 3 لاعبين (جميع اللاعبين يعلمون): كل يختار بصمت أن يعيش أو يموت، لكن إذا اختار الجميع الحياة، يموت الجميع.",
+    "flavor": "«هيا الان انتم تثقون ببعضكم اليس كذلك.»"
+  },
+  {
+    "id": "riot",
+    "name": "Riot",
+    "edition": "carousel",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "team": "demon",
+    "reminders": [
+      "يوم 1",
+      "يوم 2",
+      "يوم 3"
+    ],
+    "setup": false,
+    "ability": "في اليوم الثالث، يصبح الأتباع ريوت ويموت المرشحون لكن يرّشحون لاعباً حياً فوراً. يجب أن يحدث هذا.",
+    "flavor": "«فوضى فوضى فوضى فوضى فوضى فوضى فوضى فوضى.»"
+  },
+  {
+    "id": "leviathan",
+    "name": "Leviathan",
+    "edition": "carousel",
+    "team": "demon",
+    "firstNight": 64,
+    "firstNightReminder": "ضع علامة «اليوم 1» الخاصة بالليفياثان. أعلن «الليفياثان موجود في اللعبة؛ هذا هو اليوم الأول».",
+    "otherNight": 82,
+    "otherNightReminder": "غيّر علامة تذكير يوم الليفياثان إلى اليوم التالي.",
+    "reminders": [
+      "يوم 1",
+      "يوم 2",
+      "يوم 3",
+      "يوم 4",
+      "يوم 5",
+      "تم إعدام لاعب جيد"
+    ],
+    "setup": false,
+    "ability": "إذا تم إعدام أكثر من لاعب جيد واحد، يفوز الشر. جميع اللاعبين يعلمون أنك موجود في اللعبة. بعد اليوم الخامس، يفوز الشر.",
+    "flavor": "«و إن يكن لا تخبرني بانك ستصبح جبانا فقط لانني موجود.»"
+  },
+  {
+  "id": "doomsayer",
+  "name": "Doomsayer",
+  "edition": "",
+  "team": "fabled",
+  "firstNight": 0, "firstNightReminder": "",
+  "otherNight": 0, "otherNightReminder": "",
+  "reminders": [],
+  "setup": false,
+  "ability": "If 4 or more players live, each living player can publicly choose (once per game) that a player of their own alignment dies.",
+  "flavor": "«حين يعلن النذير نبوءته، لا يعود الموت شبحاً بعيداً؛ بل يصبح اختياراً يقف كل حي ليعلنه.»"
+},
+{
+  "id": "angel",
+  "name": "Angel",
+  "edition": "",
+  "team": "fabled",
+  "firstNight": 0, "firstNightReminder": "",
+  "otherNight": 0, "otherNightReminder": "",
+  "reminders": [],
+  "setup": false,
+  "ability": "Something bad might happen to whoever is most responsible for the death of a new player.",
+  "flavor": "«احمِ الضعيف، فاليد التي تمتد إليه بالأذى قد تجد السماء نفسها ممدودة عليها.»"
+},
+{
+  "id": "stormcatcher",
+  "name": "Storm Catcher",
+  "edition": "",
+  "team": "fabled",
+  "firstNight": 0, "firstNightReminder": "",
+  "otherNight": 0, "otherNightReminder": "",
+  "reminders": [],
+  "setup": false,
+  "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is.",
+  "flavor": "«في قلب العاصفة عين لا تهتز؛ سمِّها، وستعرف قوى الظلام أين لا يجوز لها أن تضرب.»"
+},
+{
+  "id": "revolutionary",
+  "name": "Revolutionary",
+  "edition": "",
+  "team": "fabled",
+  "firstNight": 0, "firstNightReminder": "",
+  "otherNight": 0, "otherNightReminder": "",
+  "reminders": [],
+  "setup": false,
+  "ability": "2 neighboring players are known to be the same alignment. Once per game, one of them registers falsely.",
+  "flavor": "«حين تتشابك الأيدي، يصعب على السلاسل أن تفرّق بينها؛ لكن حتى أقوى العهود قد تخفي كذبة واحدة.»"
+},
+{
+  "id": "fiddler",
+  "name": "Fiddler",
+  "edition": "",
+  "team": "fabled",
+  "firstNight": 0, "firstNightReminder": "",
+  "otherNight": 0, "otherNightReminder": "",
+  "reminders": [],
+  "setup": false,
+  "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win.",
+  "flavor": "«اعزف لحنك الأخير، فهذه المرة لن يقرر العازف وحده من يستحق التصفيق.»"
+},
+{
+  "id": "sentinel",
+  "name": "Sentinel",
+  "edition": "",
+  "team": "fabled",
+  "firstNight": 0, "firstNightReminder": "",
+  "otherNight": 0, "otherNightReminder": "",
+  "reminders": [],
+  "setup": false,
+  "ability": "There might be 1 extra or 1 fewer Outsider in play.",
+  "flavor": "«فتّش الوجوه والحدود جيداً؛ فالمدينة قد تضم من لا نعرفة اشعر بهم غرباء في كل مكان.»"
+},
+{
+  "id": "buddhist",
+  "name": "Buddhist",
+  "edition": "fabled",
+  "team": "fabled",
+  "firstNight": 0,
+  "firstNightReminder": "Announce which players are affected by the Buddhist.",
+  "otherNight": 0,
+  "otherNightReminder": "",
+  "reminders": [],
+  "setup": false,
+  "ability": "For the first 2 minutes of each day, veteran players may not talk.",
+  "flavor": "«ترمي أشواكك نحوي، فتسقط في صمتي وتعود إليك زهوراً.»"
+},
+{
+  "id": "deusexfiasco",
+  "name": "Deus ex Fiasco",
+  "edition": "carousel",
+  "team": "fabled",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 0,
+  "otherNightReminder": "",
+  "reminders": ["Whoopsie"],
+  "setup": true,
+  "ability": "At least once per game, the Storyteller will make a mistake, correct it, and publicly admit to it.",
+  "flavor": "«ليست غلطة، بل ميزة. ليست هفوة، بل لمسة صغيرة. ليست مكسورة؛ إنها فقط… غريبة الأطوار.»"
+},
+{
+  "id": "djinn",
+  "name": "Djinn",
+  "edition": "fabled",
+  "team": "fabled",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 0,
+  "otherNightReminder": "",
+  "reminders": [],
+  "setup": false,
+  "ability": "Use the Djinn's special rule. All players know what it is.",
+  "flavor": "«لسنا هنا. ولستَ كما تظن. كل ما حولك وهم، وأسئلتك بركانٌ يشتعل في سماء صافية.»"
+},
+{
+  "id": "duchess",
+  "name": "Duchess",
+  "edition": "fabled",
+  "team": "fabled",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 0,
+  "otherNightReminder": "One at a time: Wake each player marked *VISITOR* or *FALSE INFO*. Show the *THIS CHARACTER SELECTED YOU* & Duchess tokens, then give a finger signal.",
+  "reminders": ["Visitor", "Visitor", "False Info"],
+  "setup": false,
+  "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info.",
+  "flavor": "«سنستقبل الزوار بين السادسة والسابعة تماماً. الشاي في السادسة والربع، والحلوى في السادسة وخمس وأربعين. لا تتأخر؛ واللباس الرسمي، كالعادة، إلزامي.»"
+},
+{
+  "id": "ferryman",
+  "name": "Ferryman",
+  "edition": "carousel",
+  "team": "fabled",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 0,
+  "otherNightReminder": "",
+  "reminders": [],
+  "setup": false,
+  "ability": "On the final day, all dead players regain their vote token.",
+  "special": [
+    {
+      "type": "ability",
+      "name": "ghost-votes",
+      "time": "day"
+    }
+  ],
+  "flavor": "«حين تأتي الأحلام النبيلة، لا تكون خفيفة كالأماني؛ بل تهبط على القلب بثقل الحقيقة.»"
+},
+{
+  "id": "fibbin",
+  "name": "Fibbin",
+  "edition": "fabled",
+  "team": "fabled",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 0,
+  "otherNightReminder": "",
+  "reminders": ["No Ability"],
+  "setup": false,
+  "ability": "Once per game, 1 good player might get incorrect information.",
+  "flavor": "«انت هوا لست انت و لست انت هوا انت»"
+},
+{
+  "id": "hellslibrarian",
+  "name": "Hell's Librarian",
+  "edition": "fabled",
+  "team": "fabled",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 0,
+  "otherNightReminder": "",
+  "reminders": ["Something Bad"],
+  "setup": false,
+  "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence.",
+  "flavor": "«ششششش… التزم الهدوء من فضلك. من الأفضل ألا تزعج أمين المكتبة؛ فقد سمعت أن له مزاجاً لا يُحمد.»"
+},
+{
+  "id": "spiritofivory",
+  "name": "Spirit of Ivory",
+  "edition": "fabled",
+  "team": "fabled",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 0,
+  "otherNightReminder": "",
+  "reminders": ["No More Evil"],
+  "setup": false,
+  "ability": "There can't be more than 1 extra evil player.",
+  "flavor": "تعاني و تنادي نلك الروح الوحيدة تتوق لي ملاقاتكم و الجلوس معكم و قتلكم و اكلكم .»"
+},
+{
+  "id": "toymaker",
+  "name": "Toymaker",
+  "edition": "fabled",
+  "team": "fabled",
+  "firstNight": 0,
+  "firstNightReminder": "Resolve Minion Info and Demon Info, even though there are fewer than 7 players.",
+  "otherNight": 0,
+  "otherNightReminder": "If a Demon attack could end the game, and the Demon is marked *FINAL NIGHT: NO ATTACK*, do not wake the Demon.",
+  "reminders": ["Final Night: No Attack"],
+  "setup": false,
+  "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info.",
+  "flavor": "«إنه يطنّ! وينزل الدرج وحده! ويدفئك في الليل! وطعمه كالسكر! سيعشقه الصغار! نقدم لكم… الاختراع الجديد كلياً… دافئ-طنّان-مشيّان-آليّان! متعة لكل الأعمار!»"
+}
+]
